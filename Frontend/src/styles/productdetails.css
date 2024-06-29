@@ -7,7 +7,8 @@
 #product_details_page {
   width: 70%;
   margin: 10vh auto;
-  font-family: Trirong, serif;;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.1rem;
 }
 
 #product_details_page_container {
@@ -17,13 +18,13 @@
 }
 
 .product_details_img {
- display: grid;
- grid-template-columns: repeat(2, 1fr);
- gap: 2vh ;
- height: 120vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2vh;
+  height: 120vh;
 }
 
-.product_details_brand{
+.product_details_brand {
   font-size: 1vw;
   font-weight: bold;
   margin-bottom: 1vh;
@@ -42,32 +43,80 @@
   font-weight: bold;
 }
 
-.product_details_price{
+.product_details_price {
   margin: 4vh 0;
   font-size: 0.9rem;
   font-weight: 600;
 }
 
-.product_details_size_heading{
+.product_details_size_heading {
   font-size: 0.9rem;
   font-weight: lighter;
   margin-bottom: 1vh;
 }
 
-.product_details_quantity{
-    display: flex;
-    justify-content: space-between;
-    margin: 5vh 2vw 0 1vw;
-    font-size: 0.9rem;
-    font-weight: bold;
+.product_details_quantity {
+  display: flex;
+  justify-content: space-between;
+  margin: 5vh 2vw 0 1vw;
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 
-.product_details_quantity_counter{
-    display: flex;
-    column-gap: 1vw;
-    margin-bottom: 3vh;
-    border: 1px solid black;
-    padding: 0.9vh 0.5vw;
-    width: fit-content;
-    border-radius: 10px;
+.product_details_quantity_counter {
+  display: flex;
+  column-gap: 1vw;
+  margin-bottom: 3vh;
+  border: 1px solid black;
+  padding: 0.9vh 0.5vw;
+  width: fit-content;
+  border-radius: 10px;
 }
+
+.product_details_description {
+  display: flex;
+  flex-direction: column;
+  margin: 5vh 0;
+}
+
+.product_details_description_heading {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 1vh;
+}
+
+.product_details_description_details {
+  font-size: 0.8rem;
+  margin: 1vh 1vw 3vh 1vw;
+  letter-spacing: 0.05rem;
+
+  p {
+    margin-top: 0.7vh;
+  }
+}
+
+.product_details_description_desc {
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  height: 7.5em;
+  margin: 0 0 0 1vw;
+  width: 80%;
+}
+
+.product_details_product_details{
+  display: flex;
+  flex-direction: column;
+  margin: 10vh 0;
+}
+
+.product_details_product_details div{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 0.8rem;
+  width: 80%;
+  margin: 2vh 0 2vh 1vw;
+  
+}
+

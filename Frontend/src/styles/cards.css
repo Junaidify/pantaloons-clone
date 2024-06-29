@@ -8,6 +8,7 @@
 #deals_of_the_day {
   background-image: linear-gradient(130deg, #fedd8c 65%, #ff786f 35%);
   padding: 10vh;
+  margin-top: 5vh;
 }
 
 #mens_cards_container {
@@ -18,10 +19,22 @@
   font-family: "Noto Sans", sans-serif;
 }
 
+.mens_cards_title {
+  font-size: 2rem;
+  margin: 0 0 3vh 1vw;
+  font-weight: bold;
+}
+
 .mens_cards_wrapper {
   position: relative;
   display: flex;
   align-items: center;
+}
+
+.mens_parent_of_cards {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
 }
 
 .mens_cards {
@@ -34,10 +47,21 @@
   border-radius: 5px;
 }
 
-.mens_cards_title {
-  font-size: 2rem;
-  margin: 0 0 3vh 1vw;
-  font-weight: bold;
+.mens_cards_img_parent {
+  height: 50vh;
+  width: 100%;
+}
+
+.cards_img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.mens_cards_brand {
+  font-weight: 550;
+  font-size: 1.3rem;
+  margin-top: 1vh;
 }
 
 .mens_cards_features {
@@ -54,33 +78,10 @@
 
 .mens_cards_heart {
   position: absolute;
-  top: 1vh;
-  right: 1vw;
+  top: 2.5vh;
+  right: 1.5vw;
   font-size: 1.5rem;
   color: red;
-}
-
-.mens_cards_brand {
-  font-weight: 550;
-  font-size: 1.3rem;
-  margin-top: 1vh;
-}
-
-.cards_img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-}
-
-.mens_parent_of_cards {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  width: 100%;
-}
-
-.mens_cards_img_parent {
-  height: 50vh;
-  width: 100%;
 }
 
 .mens_cards_next_btn,
@@ -105,4 +106,26 @@
 
 .mens_cards_next_btn {
   right: -1vw;
+}
+
+
+/* ---------- women cards --------- */
+
+.new_arrivals_cards {
+  width: 18.5vw;
+  flex: 0 0 auto;
+  margin: 0 1%;
+  position: relative;
+  background-color: white;
+  padding: 1vh;
+  border-radius: 5px;
+}
+
+.new_arrivals_cards_title{
+  font-weight: normal;
+  font-style: oblique;
+}
+
+#new_arrivals_cards_img{
+  border-radius: 10px;
 }

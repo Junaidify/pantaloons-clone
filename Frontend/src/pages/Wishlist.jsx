@@ -2,7 +2,9 @@ import axios from "axios";
 import { useEffect } from "react";
 import { WISHLIST_API } from "../constants/actionTypes";
 import { useDispatch, useSelector } from "react-redux";
-import img_1 from "../images/img_1.webp";
+import "../styles/productpage.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 // eslint-disable-next-line react/prop-types
 export const Wishlist = ({ cssClass, wishCategory }) => {
@@ -24,6 +26,15 @@ export const Wishlist = ({ cssClass, wishCategory }) => {
     getData();
   }, [dispatch]);
 
+  const handleDelete = async (itemId) => {
+    try {
+      await axios.delete(`http://localhost:3000/wishlist/${itemId}`);
+      dispatch({ type: WISHLIST_API.DELETE, payload: itemId });
+    } catch (err) {
+      console.error("Failed to delete item:", err);
+    }
+  };
+
   return (
     <div>
       <p
@@ -38,29 +49,32 @@ export const Wishlist = ({ cssClass, wishCategory }) => {
         My Wishlist
       </p>
       <div
-        className={`${cssClass}_parent_of_cards  ${cssClass}_wishlist_cards_container`}
+        className={`${cssClass}_parent_of_cards ${cssClass}_wishlist_cards_container`}
       >
         {wishlistCards &&
           Object.entries(wishlistCards).map(([category, items]) =>
             items.map((item) => (
               <div key={item.id} className={`${cssClass}_cards`}>
                 <p className={`${cssClass}_cards_img_parent`}>
-                  <img className="cards_img" src={img_1} alt={item.title} />
+                  <img
+                    className="cards_img"
+                    src={item.image}
+                    alt={item.title}
+                  />
                 </p>
                 <h3>{item.title}</h3>
                 <p style={{ fontSize: "1.2rem", margin: "1vh 0.5vw" }}>
-                  {" "}
-                  {item[wishCategory].brand}
+                  {item[wishCategory]?.brand}
                 </p>
                 <div
                   style={{ margin: "1vh 0.5vw" }}
                   className="wishlist_card_features"
                 >
-                  {item[wishCategory].features.material}&nbsp;
-                  {item[wishCategory].features.size}&nbsp;
-                  {item[wishCategory].features.color}&nbsp;
-                  {item[wishCategory].features.fit}&nbsp;
-                  {item[wishCategory].features.sleeve_type}&nbsp;
+                  {item[wishCategory]?.features?.material}&nbsp;
+                  {item[wishCategory]?.features?.size}&nbsp;
+                  {item[wishCategory]?.features?.color}&nbsp;
+                  {item[wishCategory]?.features?.fit}&nbsp;
+                  {item[wishCategory]?.features?.sleeve_type}&nbsp;
                 </div>
                 <p
                   style={{
@@ -69,12 +83,18 @@ export const Wishlist = ({ cssClass, wishCategory }) => {
                     margin: "1vh 0.5vw 0 0.5vw",
                   }}
                 >
-                  ${item[wishCategory].price}{" "}
+                  ${item[wishCategory]?.price}{" "}
                   <strong style={{ marginLeft: "1vw", fontStyle: "italic" }}>
                     30% OFF
                   </strong>
                 </p>
-                <img src={item.image} alt={item.title} />
+
+                <p
+                  className="wishlist_card_remove_btn"
+                  onClick={() => handleDelete(item.id)}
+                >
+                  <FontAwesomeIcon icon={faXmark} />
+                </p>
               </div>
             ))
           )}

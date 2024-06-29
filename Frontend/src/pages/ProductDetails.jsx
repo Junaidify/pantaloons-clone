@@ -10,6 +10,7 @@ import {
   faTruck,
 } from "@fortawesome/free-solid-svg-icons";
 import { useCallback, useState } from "react";
+import { Footer } from "./Footer";
 
 // eslint-disable-next-line react/prop-types
 export const ProductDetails = ({ category }) => {
@@ -27,6 +28,7 @@ export const ProductDetails = ({ category }) => {
   }, []);
 
   return (
+    <>
     <div id="product_details_page">
       {products.map((product) => {
         if (product.id === id) {
@@ -123,34 +125,156 @@ export const ProductDetails = ({ category }) => {
                     </p>
                   </div>
                 </div>
-                <hr />
 
-                <div style={{display: "flex", justifyContent: "space-between", alignItems: "center", margin: "1vw 0"}}>
-                  <div style={{ display: "flex", alignItems: "center"}}>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    margin: "1vh 0 2vh 0",
+                  }}
+                >
+                  <div style={{ display: "flex", alignItems: "center" }}>
                     <p>
                       <FontAwesomeIcon icon={faTruck} />
                     </p>
-                    <div style={{fontSize: "0.9rem", marginLeft: "1vw"}}>
+                    <div style={{ fontSize: "0.9rem", marginLeft: "1vw" }}>
                       <p>Enter your pincode for</p>
-                      <p style={{fontWeight: "bold"}}>estimated delivery timelines</p>
+                      <p style={{ fontWeight: "bold" }}>
+                        estimated delivery timelines
+                      </p>
                     </div>
                   </div>
-                  <p style={{color: "green"}}><input style={{width: "7vw", padding: "0.5vh 0.5vw", borderRadius: "5px", border: "none", outline: "0.2px solid black"}} type="number" placeholder="Pincode" /></p>
+                  <p style={{ color: "green" }}>
+                    <input
+                      style={{
+                        width: "7vw",
+                        padding: "0.5vh 0.5vw",
+                        borderRadius: "5px",
+                        border: "none",
+                        outline: "0.2px solid black",
+                      }}
+                      type="number"
+                      placeholder="Pincode"
+                    />
+                  </p>
                 </div>
-                <hr  />
+                <hr />
 
-                <div style={{display: "flex", justifyContent: "space-around", alignItems: "center", margin: "1vw 0"}}>
-                  <p style={{padding: "2vh 3vw", border: "1px solid black", fontSize: "0.9rem", borderRadius: "30px"}}>ADD TO WISHLIST</p>
-                  <p style={{padding: "2vh 4vw", border: "1px solid black", fontSize: "0.9rem", borderRadius: "30px", backgroundColor: "#00FFFF", color: "white"}}>ADD TO BAG</p>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-around",
+                    alignItems: "center",
+                    margin: "2vh 0 4vh 0",
+                  }}
+                >
+                  <p
+                    style={{
+                      padding: "2vh 3vw",
+                      border: "1px solid black",
+                      fontSize: "0.9rem",
+                      borderRadius: "30px",
+                    }}
+                  >
+                    ADD TO WISHLIST
+                  </p>
+                  <p
+                    style={{
+                      padding: "2vh 4vw",
+                      border: "1px solid black",
+                      fontSize: "0.9rem",
+                      borderRadius: "30px",
+                      backgroundColor: "#00cccc",
+                      color: "white",
+                    }}
+                  >
+                    ADD TO BAG
+                  </p>
                 </div>
 
-                <p>{product.rating}</p>
-                <p>{product.title}</p>
+                <hr />
+
+                <div className="product_details_description">
+                  <p className="product_details_description_heading">
+                    MATERIAL FIT
+                  </p>
+                  <div className="product_details_description_details">
+                    <p>
+                      <FontAwesomeIcon icon={faMinus} /> &nbsp;Product Type:{" "}
+                      {product.title}
+                    </p>
+                    <p>
+                      <FontAwesomeIcon icon={faMinus} /> &nbsp;Pattern: Solid
+                    </p>
+                    <p>
+                      <FontAwesomeIcon icon={faMinus} />
+                      &nbsp; Sleeves: {product.features.sleeve_type}
+                    </p>
+                    <p>
+                      <FontAwesomeIcon icon={faMinus} />
+                      &nbsp; Color: {product.features.color}
+                    </p>
+                    <p>
+                      <FontAwesomeIcon icon={faMinus} />
+                      &nbsp; Brand: {product.brand}
+                    </p>
+                    <p>
+                      <FontAwesomeIcon icon={faMinus} /> &nbsp;Fit:{" "}
+                      {product.features.fit}
+                    </p>
+                    <p>
+                      <FontAwesomeIcon icon={faMinus} /> &nbsp;Product material:{" "}
+                      {product.features.material}
+                    </p>
+                  </div>
+                  <p className="product_details_description_desc">
+                    From beach days to pool parties, these fits have you
+                    covered. The T-shirt has a crew neck, half sleeves, a chest
+                    pocket and a comfort fit with dynamic prints. Crafted in a
+                    high-quality knit material that offers exceptional
+                    breathability and comfort.
+                  </p>
+                </div>
+
+                <div className="product_details_product_details">
+                  <div>
+                    <p>FABRIC CARE</p>
+                    <p>
+                      {" "}
+                      <FontAwesomeIcon icon={faPlus} />
+                    </p>
+                  </div>
+                  <div>
+                    <p>DELIVER AND RETURNS</p>
+                    <p>
+                      {" "}
+                      <FontAwesomeIcon icon={faPlus} />
+                    </p>
+                  </div>
+                  <div>
+                    <p>DETAILS</p>
+                    <p>
+                      {" "}
+                      <FontAwesomeIcon icon={faPlus} />
+                    </p>
+                  </div>
+                  <div>
+                    <p>REVIEWS</p>
+                    <p>
+                      {" "}
+                      <FontAwesomeIcon icon={faPlus} />
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           );
         }
       })}
     </div>
+    
+
+</>
   );
 };

@@ -157,3 +157,22 @@
   display: flex;
   font-size: 0.9rem;
 }
+
+.wishlist_cards, .navbar_mens_cards{
+  position: relative;
+}
+
+.wishlist_card_remove_btn{
+  position: absolute;
+  bottom: 10.5vh;
+  right: 3vw;
+  font-size: 2rem;
+  color: rgb(206, 130, 130);
+  transition: transform 0.3s ease-in-out ;
+}
+
+.wishlist_card_remove_btn:active{
+  background-color: red;
+  transform: scale3d(1.5, 1.5, 1.5);
+  border-radius: 5px;
+}

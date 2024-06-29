@@ -24,6 +24,8 @@ export const ProductCustomHook = ({
     size: "",
   });
 
+  console.log(products && products[0]);
+
   const { setDisplaySlide, currentSlide } = useCarousel();
   const navigate = useNavigate();
 
@@ -125,124 +127,126 @@ export const ProductCustomHook = ({
   }, [setDisplaySlide]);
 
   return (
-    <>
-      <div id="product_page_container">
-        <div className="parent_of_checkbox">
-          <p className="heading_of_product_checkbox">FILTER BY:</p>
-          <div>
-            <input
-              onChange={handleChange}
-              name="brand"
-              className="product_page_checkbox"
-              type="checkbox"
-              id="content"
-            />
-            <label className="product_page_checkbox_content" htmlFor="content">
-              Brand
-            </label>
-          </div>
-          <div>
-            <input
-              onChange={handleChange}
-              name="price"
-              className="product_page_checkbox"
-              type="checkbox"
-            />
-            <label className="product_page_checkbox_content" htmlFor="price">
-              Price
-            </label>
-          </div>
-          <div>
-            <input
-              onChange={handleChange}
-              name="rating"
-              className="product_page_checkbox"
-              type="checkbox"
-            />
-            <label className="product_page_checkbox_content" htmlFor="rating">
-              Best Seller
-            </label>
-          </div>
-          <div>
-            <input
-              onChange={handleChange}
-              name="material"
-              className="product_page_checkbox  product_page_input_filter"
-              type="text"
-              placeholder="Enter material"
-            />
-          </div>
-          <div>
-            <input
-              onChange={handleChange}
-              name="color"
-              className="product_page_checkbox  product_page_input_filter"
-              type="text"
-              placeholder="Enter color"
-            />
-          </div>
-        </div>
-
+    <div id="product_page_container">
+      <div className="parent_of_checkbox">
+        <p className="heading_of_product_checkbox">FILTER BY:</p>
         <div>
-          <div className="navbar_mens_parent_of_cards_of_sizes">
-            <p className="navbar_mens_product_heading">
-              {heading_of_product_page}
-            </p>
-            <p className="navbar_mens_size_cards_title">SHOP BY SIZE</p>
-            <div className="navbar_mens_size_cards">
-              <p onClick={() => handleSizeClick("XS")}>XS</p>
-              <p onClick={() => handleSizeClick("S")}>S</p>
-              <p onClick={() => handleSizeClick("M")}>M</p>
-              <p onClick={() => handleSizeClick("L")}>L</p>
-              <p onClick={() => handleSizeClick("XL")}>XL</p>
-              <p onClick={() => handleSizeClick("XXL")}>XXL</p>
-              <p onClick={() => handleSizeClick("2XL")}>2XL</p>
-            </div>
-          </div>
-          <div className="navbar_mens_all_cards_components">
-            <div className={`${cssClass}_parent_of_cards`} ref={currentSlide}>
-              {sortedProducts &&
-                sortedProducts.map((item) => (
-                  <div
-                    key={item.id}
-                    className={`${cssClass}_cards`}
-                    onClick={() => {
-                      console.log(`/product-page/${item.id}`);
-                      navigate(`/navbar/mens/${item.id}`);
+          <input
+            onChange={handleChange}
+            name="brand"
+            className="product_page_checkbox"
+            type="checkbox"
+            id="content"
+          />
+          <label className="product_page_checkbox_content" htmlFor="content">
+            Brand
+          </label>
+        </div>
+        <div>
+          <input
+            onChange={handleChange}
+            name="price"
+            className="product_page_checkbox"
+            type="checkbox"
+          />
+          <label className="product_page_checkbox_content" htmlFor="price">
+            Price
+          </label>
+        </div>
+        <div>
+          <input
+            onChange={handleChange}
+            name="rating"
+            className="product_page_checkbox"
+            type="checkbox"
+          />
+          <label className="product_page_checkbox_content" htmlFor="rating">
+            Best Seller
+          </label>
+        </div>
+        <div>
+          <input
+            onChange={handleChange}
+            name="material"
+            className="product_page_checkbox  product_page_input_filter"
+            type="text"
+            placeholder="Enter material"
+          />
+        </div>
+        <div>
+          <input
+            onChange={handleChange}
+            name="color"
+            className="product_page_checkbox  product_page_input_filter"
+            type="text"
+            placeholder="Enter color"
+          />
+        </div>
+      </div>
+
+      <div>
+        <div className="navbar_mens_parent_of_cards_of_sizes">
+          <p className="navbar_mens_product_heading">
+            {heading_of_product_page}
+          </p>
+          {(category !== "home" && category !== "beauty") && (
+            <>
+              <p className="navbar_mens_size_cards_title">SHOP BY SIZE</p>
+              <div className="navbar_mens_size_cards">
+                <p onClick={() => handleSizeClick("XS")}>XS</p>
+                <p onClick={() => handleSizeClick("S")}>S</p>
+                <p onClick={() => handleSizeClick("M")}>M</p>
+                <p onClick={() => handleSizeClick("L")}>L</p>
+                <p onClick={() => handleSizeClick("XL")}>XL</p>
+                <p onClick={() => handleSizeClick("XXL")}>XXL</p>
+                <p onClick={() => handleSizeClick("2XL")}>2XL</p>
+              </div>
+            </>
+          )}
+        </div>
+        <div className="navbar_mens_all_cards_components">
+          <div className={`${cssClass}_parent_of_cards`} ref={currentSlide}>
+            {sortedProducts &&
+              sortedProducts.map((item) => (
+                <div
+                  key={item.id}
+                  className={`${cssClass}_cards`}
+                  onClick={() => {
+                    navigate(`/navbar/${category}/${item.id}`);
+                  }}
+                >
+                  <p className={`${cssClass}_cards_img_parent`}>
+                    <img className="cards_img" src={img_1} alt={item.title} />
+                  </p>
+                  <p className={`${cssClass}_cards_brand`}>{item.brand}</p>
+                  <div className={`${cssClass}_cards_features`}>
+                    {item.features.material}&nbsp;
+                    {item.features.fit}&nbsp;
+                    {item.features.size}&nbsp;
+                    {item.features.color}&nbsp;
+                    {item.features.sleeve_type}
+                  </div>
+
+                  <p className={`${cssClass}_cards_price`}>
+                    ${item.price}&nbsp;{" "}
+                    <span style={{ marginLeft: "1vw", fontStyle: "italic" }}>
+                      30% OFF
+                    </span>
+                  </p>
+                  <p
+                    className={`${cssClass}_cards_heart`}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleHeartClick(item.id);
                     }}
                   >
-                    <p className={`${cssClass}_cards_img_parent`}>
-                      <img className="cards_img" src={img_1} alt={item.title} />
-                    </p>
-                    <p className={`${cssClass}_cards_brand`}>{item.brand}</p>
-                    <div className={`${cssClass}_cards_features`}>
-                      {item.features.material}&nbsp;
-                      {item.features.fit}&nbsp;
-                      {item.features.size}&nbsp;
-                      {item.features.color}&nbsp;
-                      {item.features.sleeve_type}
-                    </div>
-                    <p className={`${cssClass}_cards_price`}>
-                      ${item.price}&nbsp;{" "}
-                      <span style={{ marginLeft: "1vw", fontStyle: "italic" }}>
-                        30% OFF
-                      </span>
-                    </p>
-                    <p
-                      className={`${cssClass}_cards_heart`}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        handleHeartClick(item.id);
-                      }}
-                    >
-                      <FontAwesomeIcon icon={faHeart} />
-                    </p>
-                  </div>
-                ))}
-            </div>
+                    <FontAwesomeIcon icon={faHeart} />
+                  </p>
+                </div>
+              ))}
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };

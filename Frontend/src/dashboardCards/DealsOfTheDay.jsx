@@ -1,6 +1,6 @@
 // MenCards.jsx
 import { useEffect } from "react";
-import { Cards } from "./Cards";
+import { Cards } from "../pages/Cards";
 import "../styles/cards.css";
 import { useCarousel } from "../redux/custom";
 

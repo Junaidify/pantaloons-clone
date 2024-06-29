@@ -41,6 +41,16 @@ export const wishlistReducer = (state = wishlistInitialState, action) => {
         },
       };
 
+    case WISHLIST_API.DELETE:
+      return {
+        ...state,
+        loading: false,
+        data: {
+          ...state.data,
+          data: state.data.data.filter((item) => item.id !== action.payload),
+        },
+      };
+
     default:
       return state;
   }

@@ -21,6 +21,7 @@ export const FetchData = () => {
     getData();
   }, []);
 
+
   return (
     <>
    
