@@ -3,3 +3,10 @@ export const initialState = {
   error: null,
   data: [],
 };
+
+
+export const wishlistInitialState = {
+  loading: false,
+  error: null,
+  data: [],
+}

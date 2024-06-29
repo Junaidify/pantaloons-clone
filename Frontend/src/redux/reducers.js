@@ -1,5 +1,5 @@
-import { API_REQUEST } from "../constants/actionTypes";
-import { initialState } from "./initialStates";
+import { API_REQUEST, WISHLIST_API } from "../constants/actionTypes";
+import { initialState, wishlistInitialState } from "./initialStates";
 
 export const fetchData = (state = initialState, action) => {
   switch (action.type) {
@@ -16,6 +16,29 @@ export const fetchData = (state = initialState, action) => {
         data: Array.isArray(action.payload)
           ? [...state.data, ...action.payload]
           : [...state.data, action.payload],
+      };
+
+    default:
+      return state;
+  }
+};
+
+export const wishlistReducer = (state = wishlistInitialState, action) => {
+  switch (action.type) {
+    case WISHLIST_API.FETCH:
+      return { ...state, loading: true };
+
+    case WISHLIST_API.ERROR:
+      return { ...state, loading: false, error: action.payload };
+
+    case WISHLIST_API.SUCCESS:
+      return {
+        ...state,
+        loading: false,
+        data: {
+          ...state.data,
+          data: action.payload,
+        },
       };
 
     default:

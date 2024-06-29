@@ -16,6 +16,7 @@ import img_2 from "../images/carousal/img_1.avif";
 import img_3 from "../images/carousal/img_3.avif";
 import img_4 from "../images/carousal/img_4.avif";
 import img_5 from "../images/carousal/img_5.avif";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const currentSlide = useRef(null);
@@ -61,9 +62,11 @@ export const Navbar = () => {
         </Box>
 
         <Grid templateColumns="repeat(6, 1fr)">
+          <Link to="/navbar/mens">
           <GridItem  className="navbar_category" w="100%" h="auto" bg="blue.500">
             MEN
           </GridItem>
+          </Link>
           <GridItem  className="navbar_category" w="100%" h="auto" bg="blue.500">
             WOMEN
           </GridItem>

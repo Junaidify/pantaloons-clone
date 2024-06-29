@@ -47,10 +47,6 @@
   column-gap: 2vw;
 }
 
-.navbar_mens_cards_title {
-  visibility: hidden;
-}
-
 .navbar_mens_cards {
   border-radius: 5px;
   flex: 0 0 auto;
@@ -89,15 +85,16 @@
   top: 4vh;
   right: 2vw;
   font-size: 1.5rem;
+  color: rgb(206, 130, 130);
+}
+
+.navbar_mens_cards_heart:active{
   color: red;
 }
 
 .navbar_mens_cards_img_parent {
   height: 55vh;
   width: 100%;
-}
-
-.navbar_mens_parent_of_cards_of_sizes {
 }
 
 .navbar_mens_size_cards_title {
@@ -118,24 +115,45 @@
 
   p:hover {
     cursor: pointer;
-    background-color:rgb(131, 122, 122); 
+    background-color: rgb(131, 122, 122);
     color: white;
   }
 
   p:nth-child(2) {
-    background-color:black;
+    background-color: black;
     color: white;
   }
 }
 
 .navbar_mens_product_heading {
-    font-style: italic;
+  font-style: italic;
   font-size: 2rem;
   font-weight: bold;
   margin: 2vh 0 4vh 0;
   text-align: center;
 }
 
-.navbar_mens_cards_prev_btn, .navbar_mens_cards_next_btn{
-    visibility: hidden;
+.product_page_input_filter{
+  width: 60%;
+  margin: 1vh auto 1vh 1.5vw;
+  padding: 0.3vh 0.5vw;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 0.5px solid black;
+}
+
+
+/*--------------  WishList Page ------------ */
+
+.navbar_mens_wishlist_cards_container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wishlist_card_features{
+  display: flex;
+  font-size: 0.9rem;
 }

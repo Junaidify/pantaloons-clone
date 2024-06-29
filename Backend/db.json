@@ -1,1383 +1,1490 @@
 {
-    "products": {
-        "mens": [
-            {
-                "id": "1",
-                "title": "T-shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular fit",
-                    "size": "M",
-                    "color": "Red",
-                    "sleeve_type": "Short sleeve"
-                },
-                "price": "40.00",
-                "image": "../images/img_logo_2.png",
-                "brand": "H&M",
-                "rating": 4.5
-            },
-            {
-                "id": "2",
-                "title": "Chinos",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Slim fit",
-                    "size": "32",
-                    "color": "Beige",
-                    "sleeve_type": "N/A"
-                },
-                "price": "35.00",
-                "image": "chinos_beige.jpg",
-                "brand": "H&M",
-                "rating": 4.3
-            },
-            {
-                "id": "3",
-                "title": "Shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular fit",
-                    "size": "M",
-                    "color": "White",
-                    "sleeve_type": "Long sleeve"
-                },
-                "price": "25.00",
-                "image": "shirt_white.jpg",
-                "brand": "Allen Solly",
-                "rating": 4.6
-            },
-            {
-                "id": "4",
-                "title": "Trousers",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Slim fit",
-                    "size": "32",
-                    "color": "Beige",
-                    "sleeve_type": "N/A"
-                },
-                "price": "35.00",
-                "image": "chinos_beige.jpg",
-                "brand": "ZARA",
-                "rating": 4.2
-            },
-            {
-                "id": "5",
-                "title": "T-shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Slim fit",
-                    "size": "M",
-                    "color": "Green",
-                    "sleeve_type": "Short sleeve"
-                },
-                "price": "22.00",
-                "image": "polo_green.jpg",
-                "brand": "ZARA",
-                "rating": 4.1
-            },
-            {
-                "id": "6",
-                "title": "Chinos",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Slim fit",
-                    "size": "32",
-                    "color": "Beige",
-                    "sleeve_type": "N/A"
-                },
-                "price": "35.00",
-                "image": "chinos_beige.jpg",
-                "brand": "H&M",
-                "rating": 4.3
-            },
-            {
-                "id": "7",
-                "title": "Shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular fit",
-                    "size": "M",
-                    "color": "White",
-                    "sleeve_type": "Long sleeve"
-                },
-                "price": "25.00",
-                "image": "shirt_white.jpg",
-                "brand": "Allen Solly",
-                "rating": 4.6
-            },
-            {
-                "id": "8",
-                "title": "Trousers",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Slim fit",
-                    "size": "32",
-                    "color": "Beige",
-                    "sleeve_type": "N/A"
-                },
-                "price": "35.00",
-                "image": "chinos_beige.jpg",
-                "brand": "ZARA",
-                "rating": 4.2
-            },
-            {
-                "id": "9",
-                "title": "T-shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular fit",
-                    "size": "M",
-                    "color": "Red",
-                    "sleeve_type": "Short sleeve"
-                },
-                "price": "20.00",
-                "image": "tshirt_red.jpg",
-                "brand": "H&M",
-                "rating": 4.5
-            },
-            {
-                "id": "10",
-                "title": "Chinos",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Slim fit",
-                    "size": "32",
-                    "color": "Beige",
-                    "sleeve_type": "N/A"
-                },
-                "price": "35.00",
-                "image": "chinos_beige.jpg",
-                "brand": "H&M",
-                "rating": 4.3
-            },
-            {
-                "id": "11",
-                "title": "Shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular fit",
-                    "size": "M",
-                    "color": "White",
-                    "sleeve_type": "Long sleeve"
-                },
-                "price": "25.00",
-                "image": "shirt_white.jpg",
-                "brand": "Allen Solly",
-                "rating": 4.6
-            },
-            {
-                "id": "12",
-                "title": "Trousers",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Slim fit",
-                    "size": "32",
-                    "color": "Beige",
-                    "sleeve_type": "N/A"
-                },
-                "price": "35.00",
-                "image": "chinos_beige.jpg",
-                "brand": "ZARA",
-                "rating": 4.2
-            },
-            {
-                "id": "13",
-                "title": "T-shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Slim fit",
-                    "size": "M",
-                    "color": "Green",
-                    "sleeve_type": "Short sleeve"
-                },
-                "price": "22.00",
-                "image": "polo_green.jpg",
-                "brand": "ZARA",
-                "rating": 4.1
-            },
-            {
-                "id": "14",
-                "title": "Chinos",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Slim fit",
-                    "size": "32",
-                    "color": "Beige",
-                    "sleeve_type": "N/A"
-                },
-                "price": "35.00",
-                "image": "chinos_beige.jpg",
-                "brand": "H&M",
-                "rating": 4.3
-            },
-            {
-                "id": "15",
-                "title": "Shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular fit",
-                    "size": "M",
-                    "color": "White",
-                    "sleeve_type": "Long sleeve"
-                },
-                "price": "25.00",
-                "image": "shirt_white.jpg",
-                "brand": "Allen Solly",
-                "rating": 4.6
-            },
-            {
-                "id": "16",
-                "title": "Trousers",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Slim fit",
-                    "size": "32",
-                    "color": "Beige",
-                    "sleeve_type": "N/A"
-                },
-                "price": "35.00",
-                "image": "chinos_beige.jpg",
-                "brand": "ZARA",
-                "rating": 4.2
-            },
-            {
-                "id": "17",
-                "title": "T-shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular fit",
-                    "size": "M",
-                    "color": "Red",
-                    "sleeve_type": "Short sleeve"
-                },
-                "price": "20.00",
-                "image": "tshirt_red.jpg",
-                "brand": "H&M",
-                "rating": 4.5
-            },
-            {
-                "id": "18",
-                "title": "Chinos",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Slim fit",
-                    "size": "32",
-                    "color": "Beige",
-                    "sleeve_type": "N/A"
-                },
-                "price": "35.00",
-                "image": "chinos_beige.jpg",
-                "brand": "H&M",
-                "rating": 4.3
-            },
-            {
-                "id": "19",
-                "title": "Shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular fit",
-                    "size": "M",
-                    "color": "White",
-                    "sleeve_type": "Long sleeve"
-                },
-                "price": "25.00",
-                "image": "shirt_white.jpg",
-                "brand": "Allen Solly",
-                "rating": 4.6
-            },
-            {
-                "id": "20",
-                "title": "Casual Shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Slim Fit",
-                    "size": "38",
-                    "color": "Pink",
-                    "sleeve_type": "Full Sleeves",
-                    "neck": "Mandarin Collar",
-                    "length": "Full Length"
-                },
-                "price": "839.00",
-                "image": "pink_casual_shirt.jpg",
-                "brand": "People",
-                "rating": 3.6
-            }
-        ],
-        "women": [
-            {
-                "id": "1",
-                "title": "Black Textured Casual Half Sleeves Shirt Collar Women Relaxed Fit Tops",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Relaxed Fit",
-                    "size": "XS",
-                    "color": "Black",
-                    "sleeve_type": "Half Sleeves",
-                    "pattern": "Textured",
-                    "neck": "Shirt Collar"
-                },
-                "price": "709.00",
-                "image": "top_black.jpg",
-                "brand": "YU",
-                "rating": null
-            },
-            {
-                "id": "2",
-                "title": "Jeans",
-                "features": {
-                    "material": "Denim",
-                    "fit": "Skinny fit",
-                    "size": "28",
-                    "color": "Blue",
-                    "sleeve_type": "N/A"
-                },
-                "price": "45.00",
-                "image": "jeans_blue.jpg",
-                "brand": "ZARA",
-                "rating": 4.3
-            },
-            {
-                "id": "3",
-                "title": "T-shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular fit",
-                    "size": "S",
-                    "color": "Yellow",
-                    "sleeve_type": "Short sleeve"
-                },
-                "price": "18.00",
-                "image": "tshirt_yellow.jpg",
-                "brand": "H&M",
-                "rating": 4.2
-            },
-            {
-                "id": "4",
-                "title": "Shorts",
-                "features": {
-                    "material": "Denim",
-                    "fit": "Cut-off",
-                    "size": "M",
-                    "color": "Blue",
-                    "sleeve_type": "N/A"
-                },
-                "price": "25.00",
-                "image": "shorts_blue.jpg",
-                "brand": "ZARA",
-                "rating": 4.1
-            },
-            {
-                "id": "5",
-                "title": "Dresses",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Sleeveless",
-                    "size": "S",
-                    "color": "Red",
-                    "sleeve_type": "N/A"
-                },
-                "price": "50.00",
-                "image": "dress_red.jpg",
-                "brand": "H&M",
-                "rating": 4.0
-            },
-            {
-                "id": "6",
-                "title": "Jumpsuits",
-                "features": {
-                    "material": "Polyester",
-                    "fit": "Regular fit",
-                    "size": "M",
-                    "color": "Black",
-                    "sleeve_type": "N/A"
-                },
-                "price": "60.00",
-                "image": "jumpsuit_black.jpg",
-                "brand": "ZARA",
-                "rating": 4.5
-            },
-            {
-                "id": "7",
-                "title": "T-shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Graphic print",
-                    "size": "S",
-                    "color": "Yellow",
-                    "sleeve_type": "Short sleeve"
-                },
-                "price": "18.00",
-                "image": "tshirt_yellow.jpg",
-                "brand": "H&M",
-                "rating": 4.2
-            },
-            {
-                "id": "8",
-                "title": "Shorts",
-                "features": {
-                    "material": "Denim",
-                    "fit": "Cut-off",
-                    "size": "M",
-                    "color": "Blue",
-                    "sleeve_type": "N/A"
-                },
-                "price": "25.00",
-                "image": "shorts_blue.jpg",
-                "brand": "ZARA",
-                "rating": 4.1
-            },
-            {
-                "id": "9",
-                "title": "Dresses",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Sleeveless",
-                    "size": "S",
-                    "color": "Red",
-                    "sleeve_type": "N/A"
-                },
-                "price": "50.00",
-                "image": "dress_red.jpg",
-                "brand": "H&M",
-                "rating": 4.0
-            },
-            {
-                "id": "10",
-                "title": "Jumpsuits",
-                "features": {
-                    "material": "Polyester",
-                    "fit": "Regular fit",
-                    "size": "M",
-                    "color": "Black",
-                    "sleeve_type": "N/A"
-                },
-                "price": "60.00",
-                "image": "jumpsuit_black.jpg",
-                "brand": "ZARA",
-                "rating": 4.5
-            },
-            {
-                "id": "11",
-                "title": "T-shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Graphic print",
-                    "size": "S",
-                    "color": "Yellow",
-                    "sleeve_type": "Short sleeve"
-                },
-                "price": "18.00",
-                "image": "tshirt_yellow.jpg",
-                "brand": "H&M",
-                "rating": 4.2
-            },
-            {
-                "id": "12",
-                "title": "Shorts",
-                "features": {
-                    "material": "Denim",
-                    "fit": "Cut-off",
-                    "size": "M",
-                    "color": "Blue",
-                    "sleeve_type": "N/A"
-                },
-                "price": "25.00",
-                "image": "shorts_blue.jpg",
-                "brand": "ZARA",
-                "rating": 4.1
-            },
-            {
-                "id": "13",
-                "title": "Dresses",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Sleeveless",
-                    "size": "S",
-                    "color": "Red",
-                    "sleeve_type": "N/A"
-                },
-                "price": "50.00",
-                "image": "dress_red.jpg",
-                "brand": "H&M",
-                "rating": 4.0
-            },
-            {
-                "id": "14",
-                "title": "Jeans",
-                "features": {
-                    "material": "Denim",
-                    "fit": "Skinny fit",
-                    "size": "28",
-                    "color": "Blue",
-                    "sleeve_type": "N/A"
-                },
-                "price": "45.00",
-                "image": "jeans_blue.jpg",
-                "brand": "ZARA",
-                "rating": 4.3
-            },
-            {
-                "id": "15",
-                "title": "Jumpsuits",
-                "features": {
-                    "material": "Polyester",
-                    "fit": "Regular fit",
-                    "size": "M",
-                    "color": "Black",
-                    "sleeve_type": "N/A"
-                },
-                "price": "60.00",
-                "image": "jumpsuit_black.jpg",
-                "brand": "ZARA",
-                "rating": 4.5
-            },
-            {
-                "id": "16",
-                "title": "T-shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Graphic print",
-                    "size": "S",
-                    "color": "Yellow",
-                    "sleeve_type": "Short sleeve"
-                },
-                "price": "18.00",
-                "image": "tshirt_yellow.jpg",
-                "brand": "H&M",
-                "rating": 4.2
-            },
-            {
-                "id": "17",
-                "title": "Shorts",
-                "features": {
-                    "material": "Denim",
-                    "fit": "Cut-off",
-                    "size": "M",
-                    "color": "Blue",
-                    "sleeve_type": "N/A"
-                },
-                "price": "25.00",
-                "image": "shorts_blue.jpg",
-                "brand": "ZARA",
-                "rating": 4.1
-            },
-            {
-                "id": "18",
-                "title": "Dresses",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Sleeveless",
-                    "size": "S",
-                    "color": "Red",
-                    "sleeve_type": "N/A"
-                },
-                "price": "50.00",
-                "image": "dress_red.jpg",
-                "brand": "H&M",
-                "rating": 4.0
-            },
-            {
-                "id": "19",
-                "title": "Jumpsuits",
-                "features": {
-                    "material": "Polyester",
-                    "fit": "Regular fit",
-                    "size": "M",
-                    "color": "Black",
-                    "sleeve_type": "N/A"
-                },
-                "price": "60.00",
-                "image": "jumpsuit_black.jpg",
-                "brand": "ZARA",
-                "rating": 4.5
-            },
-            {
-                "id": "20",
-                "title": "T-shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Graphic print",
-                    "size": "S",
-                    "color": "Yellow",
-                    "sleeve_type": "Short sleeve"
-                },
-                "price": "18.00",
-                "image": "tshirt_yellow.jpg",
-                "brand": "H&M",
-                "rating": 4.2
-            }
-        ],
-        "kids": [
-            {
-                "id": "1",
-                "title": "White Printed Casual Half Sleeves Polo Collar Boys Regular Fit T-Shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular Fit",
-                    "size": "8-9Y",
-                    "color": "White",
-                    "sleeve_type": "Half Sleeves",
-                    "pattern": "Printed",
-                    "neck": "Polo Collar",
-                    "length": "Below Waist"
-                },
-                "price": "419.00",
-                "image": "tshirt_white.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": null
-            },
-            {
-                "id": "2",
-                "title": "Blue Denim Jeans",
-                "features": {
-                    "material": "Denim",
-                    "fit": "Regular Fit",
-                    "size": "10-11Y",
-                    "color": "Blue",
-                    "sleeve_type": "N/A",
-                    "pattern": "Solid",
-                    "neck": "N/A",
-                    "length": "Full Length"
-                },
-                "price": "799.00",
-                "image": "jeans_blue.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.3
-            },
-            {
-                "id": "3",
-                "title": "Yellow Printed T-Shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular Fit",
-                    "size": "9-10Y",
-                    "color": "Yellow",
-                    "sleeve_type": "Short Sleeve",
-                    "pattern": "Printed",
-                    "neck": "Round Neck",
-                    "length": "Below Waist"
-                },
-                "price": "399.00",
-                "image": "tshirt_yellow.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.2
-            },
-            {
-                "id": "4",
-                "title": "Blue Denim Shorts",
-                "features": {
-                    "material": "Denim",
-                    "fit": "Regular Fit",
-                    "size": "10-11Y",
-                    "color": "Blue",
-                    "sleeve_type": "N/A",
-                    "pattern": "Solid",
-                    "neck": "N/A",
-                    "length": "Knee Length"
-                },
-                "price": "499.00",
-                "image": "shorts_blue.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.1
-            },
-            {
-                "id": "5",
-                "title": "Red Cotton Dresses",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular Fit",
-                    "size": "8-9Y",
-                    "color": "Red",
-                    "sleeve_type": "Sleeveless",
-                    "pattern": "Solid",
-                    "neck": "Round Neck",
-                    "length": "Knee Length"
-                },
-                "price": "699.00",
-                "image": "dress_red.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.0
-            },
-            {
-                "id": "6",
-                "title": "Black Jumpsuits",
-                "features": {
-                    "material": "Polyester",
-                    "fit": "Regular Fit",
-                    "size": "12-13Y",
-                    "color": "Black",
-                    "sleeve_type": "Sleeveless",
-                    "pattern": "Solid",
-                    "neck": "Round Neck",
-                    "length": "Full Length"
-                },
-                "price": "899.00",
-                "image": "jumpsuit_black.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.5
-            },
-            {
-                "id": "7",
-                "title": "Green Printed T-Shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular Fit",
-                    "size": "9-10Y",
-                    "color": "Green",
-                    "sleeve_type": "Short Sleeve",
-                    "pattern": "Printed",
-                    "neck": "Round Neck",
-                    "length": "Below Waist"
-                },
-                "price": "399.00",
-                "image": "tshirt_green.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.2
-            },
-            {
-                "id": "8",
-                "title": "Blue Denim Shorts",
-                "features": {
-                    "material": "Denim",
-                    "fit": "Regular Fit",
-                    "size": "11-12Y",
-                    "color": "Blue",
-                    "sleeve_type": "N/A",
-                    "pattern": "Solid",
-                    "neck": "N/A",
-                    "length": "Knee Length"
-                },
-                "price": "499.00",
-                "image": "shorts_blue.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.1
-            },
-            {
-                "id": "9",
-                "title": "Red Cotton Dresses",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular Fit",
-                    "size": "10-11Y",
-                    "color": "Red",
-                    "sleeve_type": "Sleeveless",
-                    "pattern": "Solid",
-                    "neck": "Round Neck",
-                    "length": "Knee Length"
-                },
-                "price": "699.00",
-                "image": "dress_red.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.0
-            },
-            {
-                "id": "10",
-                "title": "Black Jumpsuits",
-                "features": {
-                    "material": "Polyester",
-                    "fit": "Regular Fit",
-                    "size": "13-14Y",
-                    "color": "Black",
-                    "sleeve_type": "Sleeveless",
-                    "pattern": "Solid",
-                    "neck": "Round Neck",
-                    "length": "Full Length"
-                },
-                "price": "899.00",
-                "image": "jumpsuit_black.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.5
-            },
-            {
-                "id": "11",
-                "title": "Yellow Printed T-Shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular Fit",
-                    "size": "11-12Y",
-                    "color": "Yellow",
-                    "sleeve_type": "Short Sleeve",
-                    "pattern": "Printed",
-                    "neck": "Round Neck",
-                    "length": "Below Waist"
-                },
-                "price": "399.00",
-                "image": "tshirt_yellow.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.2
-            },
-            {
-                "id": "12",
-                "title": "Blue Denim Shorts",
-                "features": {
-                    "material": "Denim",
-                    "fit": "Regular Fit",
-                    "size": "12-13Y",
-                    "color": "Blue",
-                    "sleeve_type": "N/A",
-                    "pattern": "Solid",
-                    "neck": "N/A",
-                    "length": "Knee Length"
-                },
-                "price": "499.00",
-                "image": "shorts_blue.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.1
-            },
-            {
-                "id": "13",
-                "title": "Red Cotton Dresses",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular Fit",
-                    "size": "12-13Y",
-                    "color": "Red",
-                    "sleeve_type": "Sleeveless",
-                    "pattern": "Solid",
-                    "neck": "Round Neck",
-                    "length": "Knee Length"
-                },
-                "price": "699.00",
-                "image": "dress_red.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.0
-            },
-            {
-                "id": "14",
-                "title": "Blue Denim Jeans",
-                "features": {
-                    "material": "Denim",
-                    "fit": "Regular Fit",
-                    "size": "12-13Y",
-                    "color": "Blue",
-                    "sleeve_type": "N/A",
-                    "pattern": "Solid",
-                    "neck": "N/A",
-                    "length": "Full Length"
-                },
-                "price": "799.00",
-                "image": "jeans_blue.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.3
-            },
-            {
-                "id": "15",
-                "title": "Black Jumpsuits",
-                "features": {
-                    "material": "Polyester",
-                    "fit": "Regular Fit",
-                    "size": "13-14Y",
-                    "color": "Black",
-                    "sleeve_type": "Sleeveless",
-                    "pattern": "Solid",
-                    "neck": "Round Neck",
-                    "length": "Full Length"
-                },
-                "price": "899.00",
-                "image": "jumpsuit_black.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.5
-            },
-            {
-                "id": "16",
-                "title": "Green Printed T-Shirts",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular Fit",
-                    "size": "11-12Y",
-                    "color": "Green",
-                    "sleeve_type": "Short Sleeve",
-                    "pattern": "Printed",
-                    "neck": "Round Neck",
-                    "length": "Below Waist"
-                },
-                "price": "399.00",
-                "image": "tshirt_green.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.2
-            },
-            {
-                "id": "17",
-                "title": "Blue Denim Shorts",
-                "features": {
-                    "material": "Denim",
-                    "fit": "Regular Fit",
-                    "size": "13-14Y",
-                    "color": "Blue",
-                    "sleeve_type": "N/A",
-                    "pattern": "Solid",
-                    "neck": "N/A",
-                    "length": "Knee Length"
-                },
-                "price": "499.00",
-                "image": "shorts_blue.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.1
-            },
-            {
-                "id": "18",
-                "title": "Red Cotton Dresses",
-                "features": {
-                    "material": "Cotton",
-                    "fit": "Regular Fit",
-                    "size": "13-14Y",
-                    "color": "Red",
-                    "sleeve_type": "Sleeveless",
-                    "pattern": "Solid",
-                    "neck": "Round Neck",
-                    "length": "Knee Length"
-                },
-                "price": "699.00",
-                "image": "dress_red.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.0
-            },
-            {
-                "id": "19",
-                "title": "Blue Denim Jeans",
-                "features": {
-                    "material": "Denim",
-                    "fit": "Regular Fit",
-                    "size": "13-14Y",
-                    "color": "Blue",
-                    "sleeve_type": "N/A",
-                    "pattern": "Solid",
-                    "neck": "N/A",
-                    "length": "Full Length"
-                },
-                "price": "799.00",
-                "image": "jeans_blue.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.3
-            },
-            {
-                "id": "20",
-                "title": "Black Jumpsuits",
-                "features": {
-                    "material": "Polyester",
-                    "fit": "Regular Fit",
-                    "size": "14-15Y",
-                    "color": "Black",
-                    "sleeve_type": "Sleeveless",
-                    "pattern": "Solid",
-                    "neck": "Round Neck",
-                    "length": "Full Length"
-                },
-                "price": "899.00",
-                "image": "jumpsuit_black.jpg",
-                "brand": "Pantaloons Junior",
-                "rating": 4.5
-            }
-        ],
-        "home": [
-            {
-                "id": "1",
-                "title": "Dark Green Printed Cotton Quilts",
-                "description": "Printed, Dark Green",
-                "size": "Queen",
-                "color": "Dark Green",
-                "price": "3009.00",
-                "image": "dark_green_printed_cotton_quilts.jpg",
-                "brand": "LIVING SCAPES",
-                "rating": 0.0
-            },
-            {
-                "id": "2",
-                "title": "Dining Table",
-                "description": "Wood, 6-seater",
-                "size": "Large",
-                "color": "Dark Brown",
-                "price": "700.00",
-                "image": "diningtable_brown.jpg"
-            },
-            {
-                "id": "3",
-                "title": "Bed",
-                "description": "King size, wood",
-                "size": "King",
-                "color": "White",
-                "price": "800.00",
-                "image": "bed_white.jpg"
-            },
-            {
-                "id": "4",
-                "title": "Chair",
-                "description": "Plastic, stackable",
-                "size": "Medium",
-                "color": "Red",
-                "price": "25.00",
-                "image": "chair_red.jpg"
-            },
-            {
-                "id": "5",
-                "title": "Coffee Table",
-                "description": "Glass, modern",
-                "size": "Medium",
-                "color": "Black",
-                "price": "150.00",
-                "image": "coffeetable_black.jpg"
-            },
-            {
-                "id": "6",
-                "title": "Lamp",
-                "description": "Table lamp, LED",
-                "size": "Small",
-                "color": "White",
-                "price": "30.00",
-                "image": "lamp_white.jpg"
-            },
-            {
-                "id": "7",
-                "title": "Curtains",
-                "description": "Cotton, blackout",
-                "size": "Large",
-                "color": "Gray",
-                "price": "60.00",
-                "image": "curtains_gray.jpg"
-            },
-            {
-                "id": "8",
-                "title": "Rug",
-                "description": "Wool, round",
-                "size": "Large",
-                "color": "Blue",
-                "price": "200.00",
-                "image": "rug_blue.jpg"
-            },
-            {
-                "id": "9",
-                "title": "Bookshelf",
-                "description": "Wood, 5-shelf",
-                "size": "Tall",
-                "color": "Brown",
-                "price": "100.00",
-                "image": "bookshelf_brown.jpg"
-            },
-            {
-                "id": "10",
-                "title": "Wardrobe",
-                "description": "Wood, 3-door",
-                "size": "Large",
-                "color": "White",
-                "price": "300.00",
-                "image": "wardrobe_white.jpg"
-            },
-            {
-                "id": "11",
-                "title": "Desk",
-                "description": "Wood, study",
-                "size": "Medium",
-                "color": "Black",
-                "price": "120.00",
-                "image": "desk_black.jpg"
-            },
-            {
-                "id": "12",
-                "title": "TV Stand",
-                "description": "Wood, modern",
-                "size": "Medium",
-                "color": "Brown",
-                "price": "150.00",
-                "image": "tvstand_brown.jpg"
-            },
-            {
-                "id": "13",
-                "title": "Dresser",
-                "description": "Wood, 6-drawer",
-                "size": "Large",
-                "color": "White",
-                "price": "250.00",
-                "image": "dresser_white.jpg"
-            },
-            {
-                "id": "14",
-                "title": "Mirror",
-                "description": "Wall, oval",
-                "size": "Medium",
-                "color": "Silver",
-                "price": "80.00",
-                "image": "mirror_silver.jpg"
-            },
-            {
-                "id": "15",
-                "title": "Recliner",
-                "description": "Leather, single",
-                "size": "Large",
-                "color": "Black",
-                "price": "350.00",
-                "image": "recliner_black.jpg"
-            },
-            {
-                "id": "16",
-                "title": "Ottoman",
-                "description": "Fabric, storage",
-                "size": "Medium",
-                "color": "Gray",
-                "price": "90.00",
-                "image": "ottoman_gray.jpg"
-            },
-            {
-                "id": "17",
-                "title": "Shelf",
-                "description": "Metal, wall-mounted",
-                "size": "Small",
-                "color": "White",
-                "price": "40.00",
-                "image": "shelf_white.jpg"
-            },
-            {
-                "id": "18",
-                "title": "Clock",
-                "description": "Wall clock, round",
-                "size": "Medium",
-                "color": "Black",
-                "price": "25.00",
-                "image": "clock_black.jpg"
-            },
-            {
-                "id": "19",
-                "title": "Blender",
-                "description": "Electric, glass jar",
-                "size": "Medium",
-                "color": "Red",
-                "price": "60.00",
-                "image": "blender_red.jpg"
-            },
-            {
-                "id": "20",
-                "title": "Toaster",
-                "description": "2-slice, stainless steel",
-                "size": "Small",
-                "color": "Silver",
-                "price": "30.00",
-                "image": "toaster_silver.jpg"
-            }
-        ],
-        "beauty": [
-            {
-                "id": "1",
-                "title": "Lipstick",
-                "description": "Matte, long-lasting",
-                "size": "Small",
-                "color": "Red",
-                "price": "20.00",
-                "image": "lipstick_red.jpg",
-                "brand": "Maybelline",
-                "rating": 4.7
-            },
-            {
-                "id": "2",
-                "title": "Foundation",
-                "description": "Liquid, full coverage",
-                "size": "30ml",
-                "color": "Beige",
-                "price": "40.00",
-                "image": "foundation_beige.jpg",
-                "brand": "L'Oreal",
-                "rating": 4.5
-            },
-            {
-                "id": "3",
-                "title": "Mascara",
-                "description": "Volumizing, waterproof",
-                "size": "10ml",
-                "color": "Black",
-                "price": "25.00",
-                "image": "mascara_black.jpg",
-                "brand": "CoverGirl",
-                "rating": 4.6
-            },
-            {
-                "id": "4",
-                "title": "Perfume",
-                "description": "Eau de Parfum, floral",
-                "size": "50ml",
-                "color": "Pink",
-                "price": "60.00",
-                "image": "perfume_pink.jpg",
-                "brand": "Chanel",
-                "rating": 4.8
-            },
-            {
-                "id": "5",
-                "title": "Nail Polish",
-                "description": "Glossy, quick-dry",
-                "size": "15ml",
-                "color": "Red",
-                "price": "10.00",
-                "image": "nailpolish_red.jpg",
-                "brand": "Sally Hansen",
-                "rating": 4.2
-            },
-            {
-                "id": "6",
-                "title": "Eyeshadow Palette",
-                "description": "Matte and shimmer",
-                "size": "12 shades",
-                "color": "Multicolor",
-                "price": "50.00",
-                "image": "eyeshadow_multicolor.jpg",
-                "brand": "Urban Decay",
-                "rating": 4.7
-            },
-            {
-                "id": "7",
-                "title": "Blush",
-                "description": "Powder, soft pink",
-                "size": "10g",
-                "color": "Pink",
-                "price": "30.00",
-                "image": "blush_pink.jpg",
-                "brand": "NARS",
-                "rating": 4.4
-            },
-            {
-                "id": "8",
-                "title": "Concealer",
-                "description": "Creamy, high coverage",
-                "size": "10ml",
-                "color": "Light",
-                "price": "20.00",
-                "image": "concealer_light.jpg",
-                "brand": "Tarte",
-                "rating": 4.5
-            },
-            {
-                "id": "9",
-                "title": "Eyeliner",
-                "description": "Liquid, precise tip",
-                "size": "5ml",
-                "color": "Black",
-                "price": "15.00",
-                "image": "eyeliner_black.jpg",
-                "brand": "Stila",
-                "rating": 4.6
-            },
-            {
-                "id": "10",
-                "title": "Face Cream",
-                "description": "Moisturizing, SPF 30",
-                "size": "50ml",
-                "color": "White",
-                "price": "35.00",
-                "image": "facecream_white.jpg",
-                "brand": "Neutrogena",
-                "rating": 4.5
-            },
-            {
-                "id": "11",
-                "title": "Hair Oil",
-                "description": "Nourishing, argan",
-                "size": "100ml",
-                "color": "Clear",
-                "price": "25.00",
-                "image": "hairoil_clear.jpg",
-                "brand": "Moroccanoil",
-                "rating": 4.7
-            },
-            {
-                "id": "12",
-                "title": "Body Lotion",
-                "description": "Hydrating, shea butter",
-                "size": "200ml",
-                "color": "White",
-                "price": "20.00",
-                "image": "bodylotion_white.jpg",
-                "brand": "Aveeno",
-                "rating": 4.4
-            },
-            {
-                "id": "13",
-                "title": "Shampoo",
-                "description": "Volumizing, sulfate-free",
-                "size": "250ml",
-                "color": "Clear",
-                "price": "15.00",
-                "image": "shampoo_clear.jpg",
-                "brand": "OGX",
-                "rating": 4.3
-            },
-            {
-                "id": "14",
-                "title": "Conditioner",
-                "description": "Hydrating, sulfate-free",
-                "size": "250ml",
-                "color": "Clear",
-                "price": "15.00",
-                "image": "conditioner_clear.jpg",
-                "brand": "OGX",
-                "rating": 4.3
-            },
-            {
-                "id": "15",
-                "title": "Face Mask",
-                "description": "Clay, deep cleansing",
-                "size": "100ml",
-                "color": "Green",
-                "price": "25.00",
-                "image": "facemask_green.jpg",
-                "brand": "The Body Shop",
-                "rating": 4.5
-            },
-            {
-                "id": "16",
-                "title": "Serum",
-                "description": "Anti-aging, retinol",
-                "size": "30ml",
-                "color": "Yellow",
-                "price": "50.00",
-                "image": "serum_yellow.jpg",
-                "brand": "The Ordinary",
-                "rating": 4.6
-            },
-            {
-                "id": "17",
-                "title": "Lip Balm",
-                "description": "Hydrating, SPF 15",
-                "size": "5g",
-                "color": "Pink",
-                "price": "5.00",
-                "image": "lipbalm_pink.jpg",
-                "brand": "Burt's Bees",
-                "rating": 4.3
-            },
-            {
-                "id": "18",
-                "title": "Highlighter",
-                "description": "Powder, golden glow",
-                "size": "8g",
-                "color": "Gold",
-                "price": "35.00",
-                "image": "highlighter_gold.jpg",
-                "brand": "Becca",
-                "rating": 4.7
-            },
-            {
-                "id": "19",
-                "title": "Hand Cream",
-                "description": "Moisturizing, lavender",
-                "size": "75ml",
-                "color": "Purple",
-                "price": "15.00",
-                "image": "handcream_purple.jpg",
-                "brand": "L'Occitane",
-                "rating": 4.5
-            },
-            {
-                "id": "20",
-                "title": "Makeup Remover",
-                "description": "Micellar water, gentle",
-                "size": "200ml",
-                "color": "Clear",
-                "price": "15.00",
-                "image": "makeupremover_clear.jpg",
-                "brand": "Garnier",
-                "rating": 4.4
-            }
-        ],
-        "wishlist": [],
-        "cart": [],
-        "authentication": []
+  "products": {
+    "mens": [
+      {
+        "id": "1",
+        "title": "T-shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "Red",
+          "sleeve_type": "Short sleeve"
+        },
+        "price": "40.00",
+        "image": "../images/download.jpg",
+        "brand": "H&M",
+        "rating": 4.5
+      },
+      {
+        "id": "2",
+        "title": "Chinos",
+        "features": {
+          "material": "Cotton",
+          "fit": "Slim fit",
+          "size": "XXL",
+          "color": "Beige",
+          "sleeve_type": "N/A"
+        },
+        "price": "35.00",
+        "image": "chinos_beige.jpg",
+        "brand": "H&M",
+        "rating": 4.3
+      },
+      {
+        "id": "3",
+        "title": "Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "White",
+          "sleeve_type": "Long sleeve"
+        },
+        "price": "25.00",
+        "image": "shirt_white.jpg",
+        "brand": "Allen Solly",
+        "rating": 4.6
+      },
+      {
+        "id": "4",
+        "title": "Trousers",
+        "features": {
+          "material": "Cotton",
+          "fit": "Slim fit",
+          "size": "32",
+          "color": "Beige",
+          "sleeve_type": "N/A"
+        },
+        "price": "35.00",
+        "image": "chinos_beige.jpg",
+        "brand": "ZARA",
+        "rating": 4.2
+      },
+      {
+        "id": "5",
+        "title": "T-shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Slim fit",
+          "size": "M",
+          "color": "Green",
+          "sleeve_type": "Short sleeve"
+        },
+        "price": "22.00",
+        "image": "polo_green.jpg",
+        "brand": "ZARA",
+        "rating": 4.1
+      },
+      {
+        "id": "6",
+        "title": "Chinos",
+        "features": {
+          "material": "Cotton",
+          "fit": "Slim fit",
+          "size": "32",
+          "color": "Beige",
+          "sleeve_type": "N/A"
+        },
+        "price": "35.00",
+        "image": "chinos_beige.jpg",
+        "brand": "H&M",
+        "rating": 4.3
+      },
+      {
+        "id": "7",
+        "title": "Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "White",
+          "sleeve_type": "Long sleeve"
+        },
+        "price": "25.00",
+        "image": "shirt_white.jpg",
+        "brand": "Allen Solly",
+        "rating": 4.6
+      },
+      {
+        "id": "8",
+        "title": "Trousers",
+        "features": {
+          "material": "Cotton",
+          "fit": "Slim fit",
+          "size": "32",
+          "color": "Beige",
+          "sleeve_type": "N/A"
+        },
+        "price": "35.00",
+        "image": "chinos_beige.jpg",
+        "brand": "ZARA",
+        "rating": 4.2
+      },
+      {
+        "id": "9",
+        "title": "T-shirts",
+        "features": {
+          "material": "Silk",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "Red",
+          "sleeve_type": "Short sleeve"
+        },
+        "price": "20.00",
+        "image": "tshirt_red.jpg",
+        "brand": "H&M",
+        "rating": 4.5
+      },
+      {
+        "id": "10",
+        "title": "Chinos",
+        "features": {
+          "material": "Organic cotton",
+          "fit": "Slim fit",
+          "size": "32",
+          "color": "Beige",
+          "sleeve_type": "N/A"
+        },
+        "price": "35.00",
+        "image": "chinos_beige.jpg",
+        "brand": "H&M",
+        "rating": 4.3
+      },
+      {
+        "id": "11",
+        "title": "Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "White",
+          "sleeve_type": "Long sleeve"
+        },
+        "price": "25.00",
+        "image": "shirt_white.jpg",
+        "brand": "Allen Solly",
+        "rating": 4.6
+      },
+      {
+        "id": "12",
+        "title": "Trousers",
+        "features": {
+          "material": "Silk",
+          "fit": "Slim fit",
+          "size": "XXL",
+          "color": "Beige",
+          "sleeve_type": "N/A"
+        },
+        "price": "35.00",
+        "image": "chinos_beige.jpg",
+        "brand": "ZARA",
+        "rating": 4.2
+      },
+      {
+        "id": "13",
+        "title": "T-shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Slim fit",
+          "size": "M",
+          "color": "Green",
+          "sleeve_type": "Short sleeve"
+        },
+        "price": "22.00",
+        "image": "polo_green.jpg",
+        "brand": "ZARA",
+        "rating": 4.1
+      },
+      {
+        "id": "14",
+        "title": "Chinos",
+        "features": {
+          "material": "Cotton",
+          "fit": "Slim fit",
+          "size": "32",
+          "color": "Beige",
+          "sleeve_type": "N/A"
+        },
+        "price": "35.00",
+        "image": "chinos_beige.jpg",
+        "brand": "H&M",
+        "rating": 4.3
+      },
+      {
+        "id": "15",
+        "title": "Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "White",
+          "sleeve_type": "Long sleeve"
+        },
+        "price": "25.00",
+        "image": "shirt_white.jpg",
+        "brand": "Allen Solly",
+        "rating": 4.6
+      },
+      {
+        "id": "16",
+        "title": "Trousers",
+        "features": {
+          "material": "Cotton",
+          "fit": "Slim fit",
+          "size": "32",
+          "color": "Beige",
+          "sleeve_type": "N/A"
+        },
+        "price": "35.00",
+        "image": "chinos_beige.jpg",
+        "brand": "ZARA",
+        "rating": 4.2
+      },
+      {
+        "id": "17",
+        "title": "T-shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "Red",
+          "sleeve_type": "Short sleeve"
+        },
+        "price": "20.00",
+        "image": "tshirt_red.jpg",
+        "brand": "H&M",
+        "rating": 4.5
+      },
+      {
+        "id": "18",
+        "title": "Chinos",
+        "features": {
+          "material": "Cotton",
+          "fit": "Slim fit",
+          "size": "32",
+          "color": "Beige",
+          "sleeve_type": "N/A"
+        },
+        "price": "35.00",
+        "image": "chinos_beige.jpg",
+        "brand": "H&M",
+        "rating": 4.3
+      },
+      {
+        "id": "19",
+        "title": "Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "White",
+          "sleeve_type": "Long sleeve"
+        },
+        "price": "25.00",
+        "image": "shirt_white.jpg",
+        "brand": "Allen Solly",
+        "rating": 4.6
+      },
+      {
+        "id": "20",
+        "title": "Casual Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Slim Fit",
+          "size": "38",
+          "color": "Pink",
+          "sleeve_type": "Full Sleeves",
+          "neck": "Mandarin Collar",
+          "length": "Full Length"
+        },
+        "price": "839.00",
+        "image": "pink_casual_shirt.jpg",
+        "brand": "People",
+        "rating": 3.6
+      }
+    ],
+    "women": [
+      {
+        "id": "1",
+        "title": "Black Textured Casual Half Sleeves Shirt Collar Women Relaxed Fit Tops",
+        "features": {
+          "material": "Cotton",
+          "fit": "Relaxed Fit",
+          "size": "XS",
+          "color": "Black",
+          "sleeve_type": "Half Sleeves",
+          "pattern": "Textured",
+          "neck": "Shirt Collar"
+        },
+        "price": "709.00",
+        "image": "top_black.jpg",
+        "brand": "YU",
+        "rating": null
+      },
+      {
+        "id": "2",
+        "title": "Jeans",
+        "features": {
+          "material": "Denim",
+          "fit": "Skinny fit",
+          "size": "28",
+          "color": "Blue",
+          "sleeve_type": "N/A"
+        },
+        "price": "45.00",
+        "image": "jeans_blue.jpg",
+        "brand": "ZARA",
+        "rating": 4.3
+      },
+      {
+        "id": "3",
+        "title": "T-shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular fit",
+          "size": "S",
+          "color": "Yellow",
+          "sleeve_type": "Short sleeve"
+        },
+        "price": "18.00",
+        "image": "tshirt_yellow.jpg",
+        "brand": "H&M",
+        "rating": 4.2
+      },
+      {
+        "id": "4",
+        "title": "Shorts",
+        "features": {
+          "material": "Denim",
+          "fit": "Cut-off",
+          "size": "M",
+          "color": "Blue",
+          "sleeve_type": "N/A"
+        },
+        "price": "25.00",
+        "image": "shorts_blue.jpg",
+        "brand": "ZARA",
+        "rating": 4.1
+      },
+      {
+        "id": "5",
+        "title": "Dresses",
+        "features": {
+          "material": "Cotton",
+          "fit": "Sleeveless",
+          "size": "S",
+          "color": "Red",
+          "sleeve_type": "N/A"
+        },
+        "price": "50.00",
+        "image": "dress_red.jpg",
+        "brand": "H&M",
+        "rating": 4
+      },
+      {
+        "id": "6",
+        "title": "Jumpsuits",
+        "features": {
+          "material": "Polyester",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "Black",
+          "sleeve_type": "N/A"
+        },
+        "price": "60.00",
+        "image": "jumpsuit_black.jpg",
+        "brand": "ZARA",
+        "rating": 4.5
+      },
+      {
+        "id": "7",
+        "title": "T-shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Graphic print",
+          "size": "S",
+          "color": "Yellow",
+          "sleeve_type": "Short sleeve"
+        },
+        "price": "18.00",
+        "image": "tshirt_yellow.jpg",
+        "brand": "H&M",
+        "rating": 4.2
+      },
+      {
+        "id": "8",
+        "title": "Shorts",
+        "features": {
+          "material": "Denim",
+          "fit": "Cut-off",
+          "size": "M",
+          "color": "Blue",
+          "sleeve_type": "N/A"
+        },
+        "price": "25.00",
+        "image": "shorts_blue.jpg",
+        "brand": "ZARA",
+        "rating": 4.1
+      },
+      {
+        "id": "9",
+        "title": "Dresses",
+        "features": {
+          "material": "Cotton",
+          "fit": "Sleeveless",
+          "size": "S",
+          "color": "Red",
+          "sleeve_type": "N/A"
+        },
+        "price": "50.00",
+        "image": "dress_red.jpg",
+        "brand": "H&M",
+        "rating": 4
+      },
+      {
+        "id": "10",
+        "title": "Jumpsuits",
+        "features": {
+          "material": "Polyester",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "Black",
+          "sleeve_type": "N/A"
+        },
+        "price": "60.00",
+        "image": "jumpsuit_black.jpg",
+        "brand": "ZARA",
+        "rating": 4.5
+      },
+      {
+        "id": "11",
+        "title": "T-shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Graphic print",
+          "size": "S",
+          "color": "Yellow",
+          "sleeve_type": "Short sleeve"
+        },
+        "price": "18.00",
+        "image": "tshirt_yellow.jpg",
+        "brand": "H&M",
+        "rating": 4.2
+      },
+      {
+        "id": "12",
+        "title": "Shorts",
+        "features": {
+          "material": "Denim",
+          "fit": "Cut-off",
+          "size": "M",
+          "color": "Blue",
+          "sleeve_type": "N/A"
+        },
+        "price": "25.00",
+        "image": "shorts_blue.jpg",
+        "brand": "ZARA",
+        "rating": 4.1
+      },
+      {
+        "id": "13",
+        "title": "Dresses",
+        "features": {
+          "material": "Cotton",
+          "fit": "Sleeveless",
+          "size": "S",
+          "color": "Red",
+          "sleeve_type": "N/A"
+        },
+        "price": "50.00",
+        "image": "dress_red.jpg",
+        "brand": "H&M",
+        "rating": 4
+      },
+      {
+        "id": "14",
+        "title": "Jeans",
+        "features": {
+          "material": "Denim",
+          "fit": "Skinny fit",
+          "size": "28",
+          "color": "Blue",
+          "sleeve_type": "N/A"
+        },
+        "price": "45.00",
+        "image": "jeans_blue.jpg",
+        "brand": "ZARA",
+        "rating": 4.3
+      },
+      {
+        "id": "15",
+        "title": "Jumpsuits",
+        "features": {
+          "material": "Polyester",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "Black",
+          "sleeve_type": "N/A"
+        },
+        "price": "60.00",
+        "image": "jumpsuit_black.jpg",
+        "brand": "ZARA",
+        "rating": 4.5
+      },
+      {
+        "id": "16",
+        "title": "T-shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Graphic print",
+          "size": "S",
+          "color": "Yellow",
+          "sleeve_type": "Short sleeve"
+        },
+        "price": "18.00",
+        "image": "tshirt_yellow.jpg",
+        "brand": "H&M",
+        "rating": 4.2
+      },
+      {
+        "id": "17",
+        "title": "Shorts",
+        "features": {
+          "material": "Denim",
+          "fit": "Cut-off",
+          "size": "M",
+          "color": "Blue",
+          "sleeve_type": "N/A"
+        },
+        "price": "25.00",
+        "image": "shorts_blue.jpg",
+        "brand": "ZARA",
+        "rating": 4.1
+      },
+      {
+        "id": "18",
+        "title": "Dresses",
+        "features": {
+          "material": "Cotton",
+          "fit": "Sleeveless",
+          "size": "S",
+          "color": "Red",
+          "sleeve_type": "N/A"
+        },
+        "price": "50.00",
+        "image": "dress_red.jpg",
+        "brand": "H&M",
+        "rating": 4
+      },
+      {
+        "id": "19",
+        "title": "Jumpsuits",
+        "features": {
+          "material": "Polyester",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "Black",
+          "sleeve_type": "N/A"
+        },
+        "price": "60.00",
+        "image": "jumpsuit_black.jpg",
+        "brand": "ZARA",
+        "rating": 4.5
+      },
+      {
+        "id": "20",
+        "title": "T-shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Graphic print",
+          "size": "S",
+          "color": "Yellow",
+          "sleeve_type": "Short sleeve"
+        },
+        "price": "18.00",
+        "image": "tshirt_yellow.jpg",
+        "brand": "H&M",
+        "rating": 4.2
+      }
+    ],
+    "kids": [
+      {
+        "id": "1",
+        "title": "White Printed Casual Half Sleeves Polo Collar Boys Regular Fit T-Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular Fit",
+          "size": "8-9Y",
+          "color": "White",
+          "sleeve_type": "Half Sleeves",
+          "pattern": "Printed",
+          "neck": "Polo Collar",
+          "length": "Below Waist"
+        },
+        "price": "419.00",
+        "image": "tshirt_white.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": null
+      },
+      {
+        "id": "2",
+        "title": "Blue Denim Jeans",
+        "features": {
+          "material": "Denim",
+          "fit": "Regular Fit",
+          "size": "10-11Y",
+          "color": "Blue",
+          "sleeve_type": "N/A",
+          "pattern": "Solid",
+          "neck": "N/A",
+          "length": "Full Length"
+        },
+        "price": "799.00",
+        "image": "jeans_blue.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4.3
+      },
+      {
+        "id": "3",
+        "title": "Yellow Printed T-Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular Fit",
+          "size": "9-10Y",
+          "color": "Yellow",
+          "sleeve_type": "Short Sleeve",
+          "pattern": "Printed",
+          "neck": "Round Neck",
+          "length": "Below Waist"
+        },
+        "price": "399.00",
+        "image": "tshirt_yellow.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4.2
+      },
+      {
+        "id": "4",
+        "title": "Blue Denim Shorts",
+        "features": {
+          "material": "Denim",
+          "fit": "Regular Fit",
+          "size": "10-11Y",
+          "color": "Blue",
+          "sleeve_type": "N/A",
+          "pattern": "Solid",
+          "neck": "N/A",
+          "length": "Knee Length"
+        },
+        "price": "499.00",
+        "image": "shorts_blue.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4.1
+      },
+      {
+        "id": "5",
+        "title": "Red Cotton Dresses",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular Fit",
+          "size": "8-9Y",
+          "color": "Red",
+          "sleeve_type": "Sleeveless",
+          "pattern": "Solid",
+          "neck": "Round Neck",
+          "length": "Knee Length"
+        },
+        "price": "699.00",
+        "image": "dress_red.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4
+      },
+      {
+        "id": "6",
+        "title": "Black Jumpsuits",
+        "features": {
+          "material": "Polyester",
+          "fit": "Regular Fit",
+          "size": "12-13Y",
+          "color": "Black",
+          "sleeve_type": "Sleeveless",
+          "pattern": "Solid",
+          "neck": "Round Neck",
+          "length": "Full Length"
+        },
+        "price": "899.00",
+        "image": "jumpsuit_black.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4.5
+      },
+      {
+        "id": "7",
+        "title": "Green Printed T-Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular Fit",
+          "size": "9-10Y",
+          "color": "Green",
+          "sleeve_type": "Short Sleeve",
+          "pattern": "Printed",
+          "neck": "Round Neck",
+          "length": "Below Waist"
+        },
+        "price": "399.00",
+        "image": "tshirt_green.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4.2
+      },
+      {
+        "id": "8",
+        "title": "Blue Denim Shorts",
+        "features": {
+          "material": "Denim",
+          "fit": "Regular Fit",
+          "size": "11-12Y",
+          "color": "Blue",
+          "sleeve_type": "N/A",
+          "pattern": "Solid",
+          "neck": "N/A",
+          "length": "Knee Length"
+        },
+        "price": "499.00",
+        "image": "shorts_blue.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4.1
+      },
+      {
+        "id": "9",
+        "title": "Red Cotton Dresses",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular Fit",
+          "size": "10-11Y",
+          "color": "Red",
+          "sleeve_type": "Sleeveless",
+          "pattern": "Solid",
+          "neck": "Round Neck",
+          "length": "Knee Length"
+        },
+        "price": "699.00",
+        "image": "dress_red.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4
+      },
+      {
+        "id": "10",
+        "title": "Black Jumpsuits",
+        "features": {
+          "material": "Polyester",
+          "fit": "Regular Fit",
+          "size": "13-14Y",
+          "color": "Black",
+          "sleeve_type": "Sleeveless",
+          "pattern": "Solid",
+          "neck": "Round Neck",
+          "length": "Full Length"
+        },
+        "price": "899.00",
+        "image": "jumpsuit_black.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4.5
+      },
+      {
+        "id": "11",
+        "title": "Yellow Printed T-Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular Fit",
+          "size": "11-12Y",
+          "color": "Yellow",
+          "sleeve_type": "Short Sleeve",
+          "pattern": "Printed",
+          "neck": "Round Neck",
+          "length": "Below Waist"
+        },
+        "price": "399.00",
+        "image": "tshirt_yellow.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4.2
+      },
+      {
+        "id": "12",
+        "title": "Blue Denim Shorts",
+        "features": {
+          "material": "Denim",
+          "fit": "Regular Fit",
+          "size": "12-13Y",
+          "color": "Blue",
+          "sleeve_type": "N/A",
+          "pattern": "Solid",
+          "neck": "N/A",
+          "length": "Knee Length"
+        },
+        "price": "499.00",
+        "image": "shorts_blue.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4.1
+      },
+      {
+        "id": "13",
+        "title": "Red Cotton Dresses",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular Fit",
+          "size": "12-13Y",
+          "color": "Red",
+          "sleeve_type": "Sleeveless",
+          "pattern": "Solid",
+          "neck": "Round Neck",
+          "length": "Knee Length"
+        },
+        "price": "699.00",
+        "image": "dress_red.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4
+      },
+      {
+        "id": "14",
+        "title": "Blue Denim Jeans",
+        "features": {
+          "material": "Denim",
+          "fit": "Regular Fit",
+          "size": "12-13Y",
+          "color": "Blue",
+          "sleeve_type": "N/A",
+          "pattern": "Solid",
+          "neck": "N/A",
+          "length": "Full Length"
+        },
+        "price": "799.00",
+        "image": "jeans_blue.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4.3
+      },
+      {
+        "id": "15",
+        "title": "Black Jumpsuits",
+        "features": {
+          "material": "Polyester",
+          "fit": "Regular Fit",
+          "size": "13-14Y",
+          "color": "Black",
+          "sleeve_type": "Sleeveless",
+          "pattern": "Solid",
+          "neck": "Round Neck",
+          "length": "Full Length"
+        },
+        "price": "899.00",
+        "image": "jumpsuit_black.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4.5
+      },
+      {
+        "id": "16",
+        "title": "Green Printed T-Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular Fit",
+          "size": "11-12Y",
+          "color": "Green",
+          "sleeve_type": "Short Sleeve",
+          "pattern": "Printed",
+          "neck": "Round Neck",
+          "length": "Below Waist"
+        },
+        "price": "399.00",
+        "image": "tshirt_green.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4.2
+      },
+      {
+        "id": "17",
+        "title": "Blue Denim Shorts",
+        "features": {
+          "material": "Denim",
+          "fit": "Regular Fit",
+          "size": "13-14Y",
+          "color": "Blue",
+          "sleeve_type": "N/A",
+          "pattern": "Solid",
+          "neck": "N/A",
+          "length": "Knee Length"
+        },
+        "price": "499.00",
+        "image": "shorts_blue.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4.1
+      },
+      {
+        "id": "18",
+        "title": "Red Cotton Dresses",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular Fit",
+          "size": "13-14Y",
+          "color": "Red",
+          "sleeve_type": "Sleeveless",
+          "pattern": "Solid",
+          "neck": "Round Neck",
+          "length": "Knee Length"
+        },
+        "price": "699.00",
+        "image": "dress_red.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4
+      },
+      {
+        "id": "19",
+        "title": "Blue Denim Jeans",
+        "features": {
+          "material": "Denim",
+          "fit": "Regular Fit",
+          "size": "13-14Y",
+          "color": "Blue",
+          "sleeve_type": "N/A",
+          "pattern": "Solid",
+          "neck": "N/A",
+          "length": "Full Length"
+        },
+        "price": "799.00",
+        "image": "jeans_blue.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4.3
+      },
+      {
+        "id": "20",
+        "title": "Black Jumpsuits",
+        "features": {
+          "material": "Polyester",
+          "fit": "Regular Fit",
+          "size": "14-15Y",
+          "color": "Black",
+          "sleeve_type": "Sleeveless",
+          "pattern": "Solid",
+          "neck": "Round Neck",
+          "length": "Full Length"
+        },
+        "price": "899.00",
+        "image": "jumpsuit_black.jpg",
+        "brand": "Pantaloons Junior",
+        "rating": 4.5
+      }
+    ],
+    "home": [
+      {
+        "id": "1",
+        "title": "Dark Green Printed Cotton Quilts",
+        "description": "Printed, Dark Green",
+        "size": "Queen",
+        "color": "Dark Green",
+        "price": "3009.00",
+        "image": "dark_green_printed_cotton_quilts.jpg",
+        "brand": "LIVING SCAPES",
+        "rating": 0
+      },
+      {
+        "id": "2",
+        "title": "Dining Table",
+        "description": "Wood, 6-seater",
+        "size": "Large",
+        "color": "Dark Brown",
+        "price": "700.00",
+        "image": "diningtable_brown.jpg"
+      },
+      {
+        "id": "3",
+        "title": "Bed",
+        "description": "King size, wood",
+        "size": "King",
+        "color": "White",
+        "price": "800.00",
+        "image": "bed_white.jpg"
+      },
+      {
+        "id": "4",
+        "title": "Chair",
+        "description": "Plastic, stackable",
+        "size": "Medium",
+        "color": "Red",
+        "price": "25.00",
+        "image": "chair_red.jpg"
+      },
+      {
+        "id": "5",
+        "title": "Coffee Table",
+        "description": "Glass, modern",
+        "size": "Medium",
+        "color": "Black",
+        "price": "150.00",
+        "image": "coffeetable_black.jpg"
+      },
+      {
+        "id": "6",
+        "title": "Lamp",
+        "description": "Table lamp, LED",
+        "size": "Small",
+        "color": "White",
+        "price": "30.00",
+        "image": "lamp_white.jpg"
+      },
+      {
+        "id": "7",
+        "title": "Curtains",
+        "description": "Cotton, blackout",
+        "size": "Large",
+        "color": "Gray",
+        "price": "60.00",
+        "image": "curtains_gray.jpg"
+      },
+      {
+        "id": "8",
+        "title": "Rug",
+        "description": "Wool, round",
+        "size": "Large",
+        "color": "Blue",
+        "price": "200.00",
+        "image": "rug_blue.jpg"
+      },
+      {
+        "id": "9",
+        "title": "Bookshelf",
+        "description": "Wood, 5-shelf",
+        "size": "Tall",
+        "color": "Brown",
+        "price": "100.00",
+        "image": "bookshelf_brown.jpg"
+      },
+      {
+        "id": "10",
+        "title": "Wardrobe",
+        "description": "Wood, 3-door",
+        "size": "Large",
+        "color": "White",
+        "price": "300.00",
+        "image": "wardrobe_white.jpg"
+      },
+      {
+        "id": "11",
+        "title": "Desk",
+        "description": "Wood, study",
+        "size": "Medium",
+        "color": "Black",
+        "price": "120.00",
+        "image": "desk_black.jpg"
+      },
+      {
+        "id": "12",
+        "title": "TV Stand",
+        "description": "Wood, modern",
+        "size": "Medium",
+        "color": "Brown",
+        "price": "150.00",
+        "image": "tvstand_brown.jpg"
+      },
+      {
+        "id": "13",
+        "title": "Dresser",
+        "description": "Wood, 6-drawer",
+        "size": "Large",
+        "color": "White",
+        "price": "250.00",
+        "image": "dresser_white.jpg"
+      },
+      {
+        "id": "14",
+        "title": "Mirror",
+        "description": "Wall, oval",
+        "size": "Medium",
+        "color": "Silver",
+        "price": "80.00",
+        "image": "mirror_silver.jpg"
+      },
+      {
+        "id": "15",
+        "title": "Recliner",
+        "description": "Leather, single",
+        "size": "Large",
+        "color": "Black",
+        "price": "350.00",
+        "image": "recliner_black.jpg"
+      },
+      {
+        "id": "16",
+        "title": "Ottoman",
+        "description": "Fabric, storage",
+        "size": "Medium",
+        "color": "Gray",
+        "price": "90.00",
+        "image": "ottoman_gray.jpg"
+      },
+      {
+        "id": "17",
+        "title": "Shelf",
+        "description": "Metal, wall-mounted",
+        "size": "Small",
+        "color": "White",
+        "price": "40.00",
+        "image": "shelf_white.jpg"
+      },
+      {
+        "id": "18",
+        "title": "Clock",
+        "description": "Wall clock, round",
+        "size": "Medium",
+        "color": "Black",
+        "price": "25.00",
+        "image": "clock_black.jpg"
+      },
+      {
+        "id": "19",
+        "title": "Blender",
+        "description": "Electric, glass jar",
+        "size": "Medium",
+        "color": "Red",
+        "price": "60.00",
+        "image": "blender_red.jpg"
+      },
+      {
+        "id": "20",
+        "title": "Toaster",
+        "description": "2-slice, stainless steel",
+        "size": "Small",
+        "color": "Silver",
+        "price": "30.00",
+        "image": "toaster_silver.jpg"
+      }
+    ],
+    "beauty": [
+      {
+        "id": "1",
+        "title": "Lipstick",
+        "description": "Matte, long-lasting",
+        "size": "Small",
+        "color": "Red",
+        "price": "20.00",
+        "image": "lipstick_red.jpg",
+        "brand": "Maybelline",
+        "rating": 4.7
+      },
+      {
+        "id": "2",
+        "title": "Foundation",
+        "description": "Liquid, full coverage",
+        "size": "30ml",
+        "color": "Beige",
+        "price": "40.00",
+        "image": "foundation_beige.jpg",
+        "brand": "L'Oreal",
+        "rating": 4.5
+      },
+      {
+        "id": "3",
+        "title": "Mascara",
+        "description": "Volumizing, waterproof",
+        "size": "10ml",
+        "color": "Black",
+        "price": "25.00",
+        "image": "mascara_black.jpg",
+        "brand": "CoverGirl",
+        "rating": 4.6
+      },
+      {
+        "id": "4",
+        "title": "Perfume",
+        "description": "Eau de Parfum, floral",
+        "size": "50ml",
+        "color": "Pink",
+        "price": "60.00",
+        "image": "perfume_pink.jpg",
+        "brand": "Chanel",
+        "rating": 4.8
+      },
+      {
+        "id": "5",
+        "title": "Nail Polish",
+        "description": "Glossy, quick-dry",
+        "size": "15ml",
+        "color": "Red",
+        "price": "10.00",
+        "image": "nailpolish_red.jpg",
+        "brand": "Sally Hansen",
+        "rating": 4.2
+      },
+      {
+        "id": "6",
+        "title": "Eyeshadow Palette",
+        "description": "Matte and shimmer",
+        "size": "12 shades",
+        "color": "Multicolor",
+        "price": "50.00",
+        "image": "eyeshadow_multicolor.jpg",
+        "brand": "Urban Decay",
+        "rating": 4.7
+      },
+      {
+        "id": "7",
+        "title": "Blush",
+        "description": "Powder, soft pink",
+        "size": "10g",
+        "color": "Pink",
+        "price": "30.00",
+        "image": "blush_pink.jpg",
+        "brand": "NARS",
+        "rating": 4.4
+      },
+      {
+        "id": "8",
+        "title": "Concealer",
+        "description": "Creamy, high coverage",
+        "size": "10ml",
+        "color": "Light",
+        "price": "20.00",
+        "image": "concealer_light.jpg",
+        "brand": "Tarte",
+        "rating": 4.5
+      },
+      {
+        "id": "9",
+        "title": "Eyeliner",
+        "description": "Liquid, precise tip",
+        "size": "5ml",
+        "color": "Black",
+        "price": "15.00",
+        "image": "eyeliner_black.jpg",
+        "brand": "Stila",
+        "rating": 4.6
+      },
+      {
+        "id": "10",
+        "title": "Face Cream",
+        "description": "Moisturizing, SPF 30",
+        "size": "50ml",
+        "color": "White",
+        "price": "35.00",
+        "image": "facecream_white.jpg",
+        "brand": "Neutrogena",
+        "rating": 4.5
+      },
+      {
+        "id": "11",
+        "title": "Hair Oil",
+        "description": "Nourishing, argan",
+        "size": "100ml",
+        "color": "Clear",
+        "price": "25.00",
+        "image": "hairoil_clear.jpg",
+        "brand": "Moroccanoil",
+        "rating": 4.7
+      },
+      {
+        "id": "12",
+        "title": "Body Lotion",
+        "description": "Hydrating, shea butter",
+        "size": "200ml",
+        "color": "White",
+        "price": "20.00",
+        "image": "bodylotion_white.jpg",
+        "brand": "Aveeno",
+        "rating": 4.4
+      },
+      {
+        "id": "13",
+        "title": "Shampoo",
+        "description": "Volumizing, sulfate-free",
+        "size": "250ml",
+        "color": "Clear",
+        "price": "15.00",
+        "image": "shampoo_clear.jpg",
+        "brand": "OGX",
+        "rating": 4.3
+      },
+      {
+        "id": "14",
+        "title": "Conditioner",
+        "description": "Hydrating, sulfate-free",
+        "size": "250ml",
+        "color": "Clear",
+        "price": "15.00",
+        "image": "conditioner_clear.jpg",
+        "brand": "OGX",
+        "rating": 4.3
+      },
+      {
+        "id": "15",
+        "title": "Face Mask",
+        "description": "Clay, deep cleansing",
+        "size": "100ml",
+        "color": "Green",
+        "price": "25.00",
+        "image": "facemask_green.jpg",
+        "brand": "The Body Shop",
+        "rating": 4.5
+      },
+      {
+        "id": "16",
+        "title": "Serum",
+        "description": "Anti-aging, retinol",
+        "size": "30ml",
+        "color": "Yellow",
+        "price": "50.00",
+        "image": "serum_yellow.jpg",
+        "brand": "The Ordinary",
+        "rating": 4.6
+      },
+      {
+        "id": "17",
+        "title": "Lip Balm",
+        "description": "Hydrating, SPF 15",
+        "size": "5g",
+        "color": "Pink",
+        "price": "5.00",
+        "image": "lipbalm_pink.jpg",
+        "brand": "Burt's Bees",
+        "rating": 4.3
+      },
+      {
+        "id": "18",
+        "title": "Highlighter",
+        "description": "Powder, golden glow",
+        "size": "8g",
+        "color": "Gold",
+        "price": "35.00",
+        "image": "highlighter_gold.jpg",
+        "brand": "Becca",
+        "rating": 4.7
+      },
+      {
+        "id": "19",
+        "title": "Hand Cream",
+        "description": "Moisturizing, lavender",
+        "size": "75ml",
+        "color": "Purple",
+        "price": "15.00",
+        "image": "handcream_purple.jpg",
+        "brand": "L'Occitane",
+        "rating": 4.5
+      },
+      {
+        "id": "20",
+        "title": "Makeup Remover",
+        "description": "Micellar water, gentle",
+        "size": "200ml",
+        "color": "Clear",
+        "price": "15.00",
+        "image": "makeupremover_clear.jpg",
+        "brand": "Garnier",
+        "rating": 4.4
+      }
+    ]
+  },
+  "wishlist": [
+    {
+      "id": "1025",
+      "mens": {
+        "id": "20",
+        "title": "Casual Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Slim Fit",
+          "size": "38",
+          "color": "Pink",
+          "sleeve_type": "Full Sleeves",
+          "neck": "Mandarin Collar",
+          "length": "Full Length"
+        },
+        "brand": "People",
+        "price": "839.00",
+        "image": "pink_casual_shirt.jpg"
+      }
+    },
+    {
+      "id": "7ff8",
+      "mens": {
+        "id": "19",
+        "title": "Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "White",
+          "sleeve_type": "Long sleeve"
+        },
+        "brand": "Allen Solly",
+        "price": "25.00",
+        "image": "shirt_white.jpg"
+      }
+    },
+    {
+      "id": "98f2",
+      "mens": {
+        "id": "19",
+        "title": "Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "White",
+          "sleeve_type": "Long sleeve"
+        },
+        "brand": "Allen Solly",
+        "price": "25.00",
+        "image": "shirt_white.jpg"
+      }
+    },
+    {
+      "id": "3ff3",
+      "mens": {
+        "id": "20",
+        "title": "Casual Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Slim Fit",
+          "size": "38",
+          "color": "Pink",
+          "sleeve_type": "Full Sleeves",
+          "neck": "Mandarin Collar",
+          "length": "Full Length"
+        },
+        "brand": "People",
+        "price": "839.00",
+        "image": "pink_casual_shirt.jpg"
+      }
+    },
+    {
+      "id": "37dd",
+      "mens": {
+        "id": "17",
+        "title": "T-shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "Red",
+          "sleeve_type": "Short sleeve"
+        },
+        "brand": "H&M",
+        "price": "20.00",
+        "image": "tshirt_red.jpg"
+      }
+    },
+    {
+      "id": "2c40",
+      "mens": {
+        "id": "3",
+        "title": "Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "White",
+          "sleeve_type": "Long sleeve"
+        },
+        "brand": "Allen Solly",
+        "price": "25.00",
+        "image": "shirt_white.jpg"
+      }
     }
+  ],
+  "cart": [],
+  "authentication": []
 }
