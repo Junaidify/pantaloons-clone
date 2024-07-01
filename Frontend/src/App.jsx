@@ -7,10 +7,13 @@ import { KidsProduct } from "./productpage/KidsProduct";
 import { HomeProduct } from "./productpage/HomeProduct";
 import { BeautyProduct } from "./productpage/BeautyProduct";
 import { Wishlist } from "./pages/Wishlist";
+import { Navbar } from "./pages/Navbar";
+import { Cart } from "./pages/Cart";
 
 function App() {
   return (
     <>
+      <Navbar />
       <Routes>
         <Route path="/" element={<DashBoard />} />
         <Route path="/navbar/mens" element={<MensProduct />} />
@@ -50,6 +53,8 @@ function App() {
             />
           }
         />
+
+        <Route path="/navbar/cart" element={<Cart/>} />
       </Routes>
     </>
   );

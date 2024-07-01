@@ -216,7 +216,7 @@ export const ProductCustomHook = ({
                   }}
                 >
                   <p className={`${cssClass}_cards_img_parent`}>
-                    <img className="cards_img" src={img_1} alt={item.title} />
+                    <img className="cards_img" src={item.image} alt={item.title} />
                   </p>
                   <p className={`${cssClass}_cards_brand`}>{item.brand}</p>
                   <div className={`${cssClass}_cards_features`}>

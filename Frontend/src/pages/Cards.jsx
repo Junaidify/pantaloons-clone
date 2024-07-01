@@ -10,13 +10,19 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useCarousel } from "../redux/custom";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-export const Cards = ({ category, cssClass, headingOfTheCards, customClass }) => {
+export const Cards = ({
+  category,
+  cssClass,
+  headingOfTheCards,
+  customClass,
+}) => {
   const { currentSlide, handleNextSlide, handlePrevSlide } = useCarousel();
   const data = useSelector((state) => state.fetchData.data);
   const cards = data.length > 0 ? data[0][category] : [];
-
+  const navigate = useNavigate();
 
   const handleWishlist = (productId) => {
     const item = cards.find((item) => item.id === productId);
@@ -47,21 +53,31 @@ export const Cards = ({ category, cssClass, headingOfTheCards, customClass }) =>
       .catch((error) => {
         console.error(error);
       });
+
+    navigate(`/navbar/${category}/${item.id}`);
   };
-
-
-
 
   return (
     <div id={`${cssClass}_cards_container`}>
-      <p className={`${cssClass}_cards_title  ${customClass}_cards_title `}>{headingOfTheCards}</p>
+      <p className={`${cssClass}_cards_title  ${customClass}_cards_title `}>
+        {headingOfTheCards}
+      </p>
       <div className={`${cssClass}_cards_wrapper`}>
         <div className={`${cssClass}_parent_of_cards`} ref={currentSlide}>
           {cards &&
             cards.map((item) => (
-              <div key={item.id} onClick={() => handleWishlist(item.id)} className={`${cssClass}_cards  ${customClass}_cards`}>
+              <div
+                key={item.id}
+                onClick={() => handleWishlist(item.id)}
+                className={`${cssClass}_cards  ${customClass}_cards`}
+              >
                 <p className={`${cssClass}_cards_img_parent`}>
-                  <img className="cards_img " id={`${customClass}_cards_img`} src={img_1} alt={item.title} />
+                  <img
+                    className="cards_img "
+                    id={`${customClass}_cards_img`}
+                    src={item.image}
+                    alt={item.title}
+                  />
                 </p>
                 <p className={`${cssClass}_cards_brand`}>{item.brand}</p>
                 <div className={`${cssClass}_cards_features`}>
@@ -71,7 +87,12 @@ export const Cards = ({ category, cssClass, headingOfTheCards, customClass }) =>
                   {item.features.color}&nbsp;
                   {item.features.sleeve_type}
                 </div>
-                <p className={`${cssClass}_cards_price`}>${item.price}&nbsp; <span style={{marginLeft: "1vw", fontStyle: "italic"}}>30% OFF</span></p>
+                <p className={`${cssClass}_cards_price`}>
+                  ${item.price}&nbsp;{" "}
+                  <span style={{ marginLeft: "1vw", fontStyle: "italic" }}>
+                    30% OFF
+                  </span>
+                </p>
                 <p className={`${cssClass}_cards_heart`}>
                   <FontAwesomeIcon icon={faHeart} />
                 </p>

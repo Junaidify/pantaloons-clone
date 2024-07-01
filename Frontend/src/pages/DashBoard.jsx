@@ -9,25 +9,23 @@ import { BestSeller } from "../dashboardCards/BestSeller";
 import { StyleFinder } from "../dashboardCards/StyleFinder";
 import { ImgContainer } from "../dashboardCards/ImgContainer";
 import { DownloadPantaloons } from "../dashboardCards/DownloadPantaloons";
-
-
+import { Carousal } from "./Carousal";
+import { Footer } from "./Footer";
 
 export const DashBoard = () => {
   return (
     <>
       <div id="dashboard">
-       <FetchData/>  {/* important to render the server */}
-        <Navbar />
+        <FetchData /> {/* important to render the server */}
+        <Carousal />
         <DealsOfTheDay />
         <NewArrivals />
-        <TrendingNow/>
-        <StyleFinder/>
-        <BestSeller/>
-        <ImgContainer/>
-        <DownloadPantaloons/>
-        
-        
-        
+        <TrendingNow />
+        <StyleFinder />
+        <BestSeller />
+        <ImgContainer />
+        <DownloadPantaloons />
+        <Footer />
       </div>
     </>
   );
