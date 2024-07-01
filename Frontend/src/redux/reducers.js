@@ -1,5 +1,5 @@
-import { API_REQUEST, WISHLIST_API } from "../constants/actionTypes";
-import { initialState, wishlistInitialState } from "./initialStates";
+import { API_REQUEST, CART_API, WISHLIST_API } from "../constants/actionTypes";
+import { cartInitialState, initialState, wishlistInitialState } from "./initialStates";
 
 export const fetchData = (state = initialState, action) => {
   switch (action.type) {
@@ -55,3 +55,33 @@ export const wishlistReducer = (state = wishlistInitialState, action) => {
       return state;
   }
 };
+
+
+export const cartReducer = (state = cartInitialState, action) => {
+  switch (action.type) {
+    case CART_API.FETCH:
+      return { ...state, loading: true };
+
+    case CART_API.ERROR:
+      return { ...state, loading: false, error: action.payload };
+
+    case CART_API.SUCCESS:
+      return {
+        ...state,
+        loading: false,
+        data: Array.isArray(action.payload) ? action.payload : [action.payload]
+      };
+
+    case CART_API.DELETE:
+      return {
+        ...state,
+        loading: false,
+        data: state.data.filter((item) => item.id !== action.payload)
+      };
+
+    default:
+      return state;
+  }
+};
+
+

@@ -12,7 +12,7 @@
           "sleeve_type": "Short sleeve"
         },
         "price": "40.00",
-        "image": "../images/download.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1016636-13842777.jpg?auto=format&w=257",
         "brand": "H&M",
         "rating": 4.5
       },
@@ -27,7 +27,7 @@
           "sleeve_type": "N/A"
         },
         "price": "35.00",
-        "image": "chinos_beige.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1016638-13842790.jpg?auto=format&w=257",
         "brand": "H&M",
         "rating": 4.3
       },
@@ -42,7 +42,7 @@
           "sleeve_type": "Long sleeve"
         },
         "price": "25.00",
-        "image": "shirt_white.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1016636-13842777.jpg?auto=format&w=257",
         "brand": "Allen Solly",
         "rating": 4.6
       },
@@ -57,7 +57,7 @@
           "sleeve_type": "N/A"
         },
         "price": "35.00",
-        "image": "chinos_beige.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1000699-13406459.jpg?auto=format&w=257",
         "brand": "ZARA",
         "rating": 4.2
       },
@@ -72,7 +72,7 @@
           "sleeve_type": "Short sleeve"
         },
         "price": "22.00",
-        "image": "polo_green.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/999392-13376431.jpg?auto=format&w=257",
         "brand": "ZARA",
         "rating": 4.1
       },
@@ -87,7 +87,7 @@
           "sleeve_type": "N/A"
         },
         "price": "35.00",
-        "image": "chinos_beige.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1016669-13842978.jpg?auto=format&w=257",
         "brand": "H&M",
         "rating": 4.3
       },
@@ -102,7 +102,7 @@
           "sleeve_type": "Long sleeve"
         },
         "price": "25.00",
-        "image": "shirt_white.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1016591-13842758.jpg?auto=format&w=257",
         "brand": "Allen Solly",
         "rating": 4.6
       },
@@ -117,7 +117,7 @@
           "sleeve_type": "N/A"
         },
         "price": "35.00",
-        "image": "chinos_beige.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1016522-13842467.jpg?auto=format&w=257",
         "brand": "ZARA",
         "rating": 4.2
       },
@@ -132,7 +132,7 @@
           "sleeve_type": "Short sleeve"
         },
         "price": "20.00",
-        "image": "tshirt_red.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1016196-13837057.jpg?auto=format&w=257",
         "brand": "H&M",
         "rating": 4.5
       },
@@ -147,12 +147,42 @@
           "sleeve_type": "N/A"
         },
         "price": "35.00",
-        "image": "chinos_beige.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1010804-13655226.jpg?auto=format&w=257",
         "brand": "H&M",
         "rating": 4.3
       },
       {
         "id": "11",
+        "title": "T-shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "Red",
+          "sleeve_type": "Short sleeve"
+        },
+        "price": "40.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1016636-13842777.jpg?auto=format&w=257",
+        "brand": "H&M",
+        "rating": 4.5
+      },
+      {
+        "id": "12",
+        "title": "Chinos",
+        "features": {
+          "material": "Cotton",
+          "fit": "Slim fit",
+          "size": "XXL",
+          "color": "Beige",
+          "sleeve_type": "N/A"
+        },
+        "price": "35.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1016638-13842790.jpg?auto=format&w=257",
+        "brand": "H&M",
+        "rating": 4.3
+      },
+      {
+        "id": "13",
         "title": "Shirts",
         "features": {
           "material": "Cotton",
@@ -162,27 +192,27 @@
           "sleeve_type": "Long sleeve"
         },
         "price": "25.00",
-        "image": "shirt_white.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1016636-13842777.jpg?auto=format&w=257",
         "brand": "Allen Solly",
         "rating": 4.6
       },
       {
-        "id": "12",
+        "id": "14",
         "title": "Trousers",
         "features": {
-          "material": "Silk",
+          "material": "Cotton",
           "fit": "Slim fit",
-          "size": "XXL",
+          "size": "32",
           "color": "Beige",
           "sleeve_type": "N/A"
         },
         "price": "35.00",
-        "image": "chinos_beige.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1000699-13406459.jpg?auto=format&w=257",
         "brand": "ZARA",
         "rating": 4.2
       },
       {
-        "id": "13",
+        "id": "15",
         "title": "T-shirts",
         "features": {
           "material": "Cotton",
@@ -192,12 +222,12 @@
           "sleeve_type": "Short sleeve"
         },
         "price": "22.00",
-        "image": "polo_green.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/999392-13376431.jpg?auto=format&w=257",
         "brand": "ZARA",
         "rating": 4.1
       },
       {
-        "id": "14",
+        "id": "16",
         "title": "Chinos",
         "features": {
           "material": "Cotton",
@@ -207,12 +237,12 @@
           "sleeve_type": "N/A"
         },
         "price": "35.00",
-        "image": "chinos_beige.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1016669-13842978.jpg?auto=format&w=257",
         "brand": "H&M",
         "rating": 4.3
       },
       {
-        "id": "15",
+        "id": "17",
         "title": "Shirts",
         "features": {
           "material": "Cotton",
@@ -222,12 +252,12 @@
           "sleeve_type": "Long sleeve"
         },
         "price": "25.00",
-        "image": "shirt_white.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1016591-13842758.jpg?auto=format&w=257",
         "brand": "Allen Solly",
         "rating": 4.6
       },
       {
-        "id": "16",
+        "id": "18",
         "title": "Trousers",
         "features": {
           "material": "Cotton",
@@ -237,71 +267,39 @@
           "sleeve_type": "N/A"
         },
         "price": "35.00",
-        "image": "chinos_beige.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1016522-13842467.jpg?auto=format&w=257",
         "brand": "ZARA",
         "rating": 4.2
       },
       {
-        "id": "17",
+        "id": "19",
         "title": "T-shirts",
         "features": {
-          "material": "Cotton",
+          "material": "Silk",
           "fit": "Regular fit",
           "size": "M",
           "color": "Red",
           "sleeve_type": "Short sleeve"
         },
         "price": "20.00",
-        "image": "tshirt_red.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1016196-13837057.jpg?auto=format&w=257",
         "brand": "H&M",
         "rating": 4.5
       },
       {
-        "id": "18",
+        "id": "20",
         "title": "Chinos",
         "features": {
-          "material": "Cotton",
+          "material": "Organic cotton",
           "fit": "Slim fit",
           "size": "32",
           "color": "Beige",
           "sleeve_type": "N/A"
         },
         "price": "35.00",
-        "image": "chinos_beige.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1010804-13655226.jpg?auto=format&w=257",
         "brand": "H&M",
         "rating": 4.3
-      },
-      {
-        "id": "19",
-        "title": "Shirts",
-        "features": {
-          "material": "Cotton",
-          "fit": "Regular fit",
-          "size": "M",
-          "color": "White",
-          "sleeve_type": "Long sleeve"
-        },
-        "price": "25.00",
-        "image": "shirt_white.jpg",
-        "brand": "Allen Solly",
-        "rating": 4.6
-      },
-      {
-        "id": "20",
-        "title": "Casual Shirts",
-        "features": {
-          "material": "Cotton",
-          "fit": "Slim Fit",
-          "size": "38",
-          "color": "Pink",
-          "sleeve_type": "Full Sleeves",
-          "neck": "Mandarin Collar",
-          "length": "Full Length"
-        },
-        "price": "839.00",
-        "image": "pink_casual_shirt.jpg",
-        "brand": "People",
-        "rating": 3.6
       }
     ],
     "women": [
@@ -318,7 +316,7 @@
           "neck": "Shirt Collar"
         },
         "price": "709.00",
-        "image": "top_black.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/971419-12768694.jpg?auto=format&w=257",
         "brand": "YU",
         "rating": null
       },
@@ -333,7 +331,7 @@
           "sleeve_type": "N/A"
         },
         "price": "45.00",
-        "image": "jeans_blue.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/999417-13832221.jpg?auto=format&w=257",
         "brand": "ZARA",
         "rating": 4.3
       },
@@ -348,7 +346,7 @@
           "sleeve_type": "Short sleeve"
         },
         "price": "18.00",
-        "image": "tshirt_yellow.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/992123-13184141.jpg?auto=format&w=257",
         "brand": "H&M",
         "rating": 4.2
       },
@@ -363,7 +361,7 @@
           "sleeve_type": "N/A"
         },
         "price": "25.00",
-        "image": "shorts_blue.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/977906-12874709.jpg?auto=format&w=257",
         "brand": "ZARA",
         "rating": 4.1
       },
@@ -378,7 +376,7 @@
           "sleeve_type": "N/A"
         },
         "price": "50.00",
-        "image": "dress_red.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/971396-12768700.jpg?auto=format&w=257",
         "brand": "H&M",
         "rating": 4
       },
@@ -393,7 +391,7 @@
           "sleeve_type": "N/A"
         },
         "price": "60.00",
-        "image": "jumpsuit_black.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/992122-13184135.jpg?auto=format&w=257",
         "brand": "ZARA",
         "rating": 4.5
       },
@@ -408,7 +406,7 @@
           "sleeve_type": "Short sleeve"
         },
         "price": "18.00",
-        "image": "tshirt_yellow.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/996205-13302658.jpg?auto=format&w=257",
         "brand": "H&M",
         "rating": 4.2
       },
@@ -423,7 +421,7 @@
           "sleeve_type": "N/A"
         },
         "price": "25.00",
-        "image": "shorts_blue.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/990937-13150714.jpg?auto=format&w=257",
         "brand": "ZARA",
         "rating": 4.1
       },
@@ -438,7 +436,7 @@
           "sleeve_type": "N/A"
         },
         "price": "50.00",
-        "image": "dress_red.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/948352-12209863.jpg?auto=format&w=257",
         "brand": "H&M",
         "rating": 4
       },
@@ -453,57 +451,29 @@
           "sleeve_type": "N/A"
         },
         "price": "60.00",
-        "image": "jumpsuit_black.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/999901-13390845.jpg?auto=format&w=257",
         "brand": "ZARA",
         "rating": 4.5
       },
       {
         "id": "11",
-        "title": "T-shirts",
+        "title": "Black Textured Casual Half Sleeves Shirt Collar Women Relaxed Fit Tops",
         "features": {
           "material": "Cotton",
-          "fit": "Graphic print",
-          "size": "S",
-          "color": "Yellow",
-          "sleeve_type": "Short sleeve"
+          "fit": "Relaxed Fit",
+          "size": "XS",
+          "color": "Black",
+          "sleeve_type": "Half Sleeves",
+          "pattern": "Textured",
+          "neck": "Shirt Collar"
         },
-        "price": "18.00",
-        "image": "tshirt_yellow.jpg",
-        "brand": "H&M",
-        "rating": 4.2
+        "price": "709.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/971419-12768694.jpg?auto=format&w=257",
+        "brand": "YU",
+        "rating": null
       },
       {
         "id": "12",
-        "title": "Shorts",
-        "features": {
-          "material": "Denim",
-          "fit": "Cut-off",
-          "size": "M",
-          "color": "Blue",
-          "sleeve_type": "N/A"
-        },
-        "price": "25.00",
-        "image": "shorts_blue.jpg",
-        "brand": "ZARA",
-        "rating": 4.1
-      },
-      {
-        "id": "13",
-        "title": "Dresses",
-        "features": {
-          "material": "Cotton",
-          "fit": "Sleeveless",
-          "size": "S",
-          "color": "Red",
-          "sleeve_type": "N/A"
-        },
-        "price": "50.00",
-        "image": "dress_red.jpg",
-        "brand": "H&M",
-        "rating": 4
-      },
-      {
-        "id": "14",
         "title": "Jeans",
         "features": {
           "material": "Denim",
@@ -513,42 +483,27 @@
           "sleeve_type": "N/A"
         },
         "price": "45.00",
-        "image": "jeans_blue.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/999417-13832221.jpg?auto=format&w=257",
         "brand": "ZARA",
         "rating": 4.3
       },
       {
-        "id": "15",
-        "title": "Jumpsuits",
-        "features": {
-          "material": "Polyester",
-          "fit": "Regular fit",
-          "size": "M",
-          "color": "Black",
-          "sleeve_type": "N/A"
-        },
-        "price": "60.00",
-        "image": "jumpsuit_black.jpg",
-        "brand": "ZARA",
-        "rating": 4.5
-      },
-      {
-        "id": "16",
+        "id": "13",
         "title": "T-shirts",
         "features": {
           "material": "Cotton",
-          "fit": "Graphic print",
+          "fit": "Regular fit",
           "size": "S",
           "color": "Yellow",
           "sleeve_type": "Short sleeve"
         },
         "price": "18.00",
-        "image": "tshirt_yellow.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/992123-13184141.jpg?auto=format&w=257",
         "brand": "H&M",
         "rating": 4.2
       },
       {
-        "id": "17",
+        "id": "14",
         "title": "Shorts",
         "features": {
           "material": "Denim",
@@ -558,12 +513,12 @@
           "sleeve_type": "N/A"
         },
         "price": "25.00",
-        "image": "shorts_blue.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/977906-12874709.jpg?auto=format&w=257",
         "brand": "ZARA",
         "rating": 4.1
       },
       {
-        "id": "18",
+        "id": "15",
         "title": "Dresses",
         "features": {
           "material": "Cotton",
@@ -573,12 +528,12 @@
           "sleeve_type": "N/A"
         },
         "price": "50.00",
-        "image": "dress_red.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/971396-12768700.jpg?auto=format&w=257",
         "brand": "H&M",
         "rating": 4
       },
       {
-        "id": "19",
+        "id": "16",
         "title": "Jumpsuits",
         "features": {
           "material": "Polyester",
@@ -588,12 +543,12 @@
           "sleeve_type": "N/A"
         },
         "price": "60.00",
-        "image": "jumpsuit_black.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/992122-13184135.jpg?auto=format&w=257",
         "brand": "ZARA",
         "rating": 4.5
       },
       {
-        "id": "20",
+        "id": "17",
         "title": "T-shirts",
         "features": {
           "material": "Cotton",
@@ -603,9 +558,54 @@
           "sleeve_type": "Short sleeve"
         },
         "price": "18.00",
-        "image": "tshirt_yellow.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/996205-13302658.jpg?auto=format&w=257",
         "brand": "H&M",
         "rating": 4.2
+      },
+      {
+        "id": "18",
+        "title": "Shorts",
+        "features": {
+          "material": "Denim",
+          "fit": "Cut-off",
+          "size": "M",
+          "color": "Blue",
+          "sleeve_type": "N/A"
+        },
+        "price": "25.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/990937-13150714.jpg?auto=format&w=257",
+        "brand": "ZARA",
+        "rating": 4.1
+      },
+      {
+        "id": "19",
+        "title": "Dresses",
+        "features": {
+          "material": "Cotton",
+          "fit": "Sleeveless",
+          "size": "S",
+          "color": "Red",
+          "sleeve_type": "N/A"
+        },
+        "price": "50.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/948352-12209863.jpg?auto=format&w=257",
+        "brand": "H&M",
+        "rating": 4
+      },
+      {
+        "id": "20",
+        "title": "Jumpsuits",
+        "features": {
+          "material": "Polyester",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "Black",
+          "sleeve_type": "N/A"
+        },
+        "price": "60.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/1/1000761-13406221.jpg?auto=format&w=257",
+        "brand": "ZARA",
+        "rating": 4.5
       }
     ],
     "kids": [
@@ -623,7 +623,7 @@
           "length": "Below Waist"
         },
         "price": "419.00",
-        "image": "tshirt_white.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/982991-12979262.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": null
       },
@@ -641,7 +641,7 @@
           "length": "Full Length"
         },
         "price": "799.00",
-        "image": "jeans_blue.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/982976-12980755.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4.3
       },
@@ -659,7 +659,7 @@
           "length": "Below Waist"
         },
         "price": "399.00",
-        "image": "tshirt_yellow.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/983029-12981125.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4.2
       },
@@ -677,7 +677,7 @@
           "length": "Knee Length"
         },
         "price": "499.00",
-        "image": "shorts_blue.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/997562-13342372.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4.1
       },
@@ -695,7 +695,7 @@
           "length": "Knee Length"
         },
         "price": "699.00",
-        "image": "dress_red.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/986118-13051709.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4
       },
@@ -713,7 +713,7 @@
           "length": "Full Length"
         },
         "price": "899.00",
-        "image": "jumpsuit_black.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/996403-13303860.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4.5
       },
@@ -731,7 +731,7 @@
           "length": "Below Waist"
         },
         "price": "399.00",
-        "image": "tshirt_green.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/983255-12980256.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4.2
       },
@@ -749,7 +749,7 @@
           "length": "Knee Length"
         },
         "price": "499.00",
-        "image": "shorts_blue.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/970582-12747998.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4.1
       },
@@ -767,7 +767,7 @@
           "length": "Knee Length"
         },
         "price": "699.00",
-        "image": "dress_red.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/978314-12884154.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4
       },
@@ -785,17 +785,53 @@
           "length": "Full Length"
         },
         "price": "899.00",
-        "image": "jumpsuit_black.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/978305-12884136.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4.5
       },
       {
         "id": "11",
+        "title": "White Printed Casual Half Sleeves Polo Collar Boys Regular Fit T-Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular Fit",
+          "size": "8-9Y",
+          "color": "White",
+          "sleeve_type": "Half Sleeves",
+          "pattern": "Printed",
+          "neck": "Polo Collar",
+          "length": "Below Waist"
+        },
+        "price": "419.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/982991-12979262.jpg?auto=format&w=257",
+        "brand": "Pantaloons Junior",
+        "rating": null
+      },
+      {
+        "id": "12",
+        "title": "Blue Denim Jeans",
+        "features": {
+          "material": "Denim",
+          "fit": "Regular Fit",
+          "size": "10-11Y",
+          "color": "Blue",
+          "sleeve_type": "N/A",
+          "pattern": "Solid",
+          "neck": "N/A",
+          "length": "Full Length"
+        },
+        "price": "799.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/982976-12980755.jpg?auto=format&w=257",
+        "brand": "Pantaloons Junior",
+        "rating": 4.3
+      },
+      {
+        "id": "13",
         "title": "Yellow Printed T-Shirts",
         "features": {
           "material": "Cotton",
           "fit": "Regular Fit",
-          "size": "11-12Y",
+          "size": "9-10Y",
           "color": "Yellow",
           "sleeve_type": "Short Sleeve",
           "pattern": "Printed",
@@ -803,17 +839,17 @@
           "length": "Below Waist"
         },
         "price": "399.00",
-        "image": "tshirt_yellow.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/983029-12981125.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4.2
       },
       {
-        "id": "12",
+        "id": "14",
         "title": "Blue Denim Shorts",
         "features": {
           "material": "Denim",
           "fit": "Regular Fit",
-          "size": "12-13Y",
+          "size": "10-11Y",
           "color": "Blue",
           "sleeve_type": "N/A",
           "pattern": "Solid",
@@ -821,17 +857,17 @@
           "length": "Knee Length"
         },
         "price": "499.00",
-        "image": "shorts_blue.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/997562-13342372.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4.1
       },
       {
-        "id": "13",
+        "id": "15",
         "title": "Red Cotton Dresses",
         "features": {
           "material": "Cotton",
           "fit": "Regular Fit",
-          "size": "12-13Y",
+          "size": "8-9Y",
           "color": "Red",
           "sleeve_type": "Sleeveless",
           "pattern": "Solid",
@@ -839,35 +875,17 @@
           "length": "Knee Length"
         },
         "price": "699.00",
-        "image": "dress_red.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/986118-13051709.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4
       },
       {
-        "id": "14",
-        "title": "Blue Denim Jeans",
-        "features": {
-          "material": "Denim",
-          "fit": "Regular Fit",
-          "size": "12-13Y",
-          "color": "Blue",
-          "sleeve_type": "N/A",
-          "pattern": "Solid",
-          "neck": "N/A",
-          "length": "Full Length"
-        },
-        "price": "799.00",
-        "image": "jeans_blue.jpg",
-        "brand": "Pantaloons Junior",
-        "rating": 4.3
-      },
-      {
-        "id": "15",
+        "id": "16",
         "title": "Black Jumpsuits",
         "features": {
           "material": "Polyester",
           "fit": "Regular Fit",
-          "size": "13-14Y",
+          "size": "12-13Y",
           "color": "Black",
           "sleeve_type": "Sleeveless",
           "pattern": "Solid",
@@ -875,17 +893,17 @@
           "length": "Full Length"
         },
         "price": "899.00",
-        "image": "jumpsuit_black.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/996403-13303860.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4.5
       },
       {
-        "id": "16",
+        "id": "17",
         "title": "Green Printed T-Shirts",
         "features": {
           "material": "Cotton",
           "fit": "Regular Fit",
-          "size": "11-12Y",
+          "size": "9-10Y",
           "color": "Green",
           "sleeve_type": "Short Sleeve",
           "pattern": "Printed",
@@ -893,17 +911,17 @@
           "length": "Below Waist"
         },
         "price": "399.00",
-        "image": "tshirt_green.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/983255-12980256.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4.2
       },
       {
-        "id": "17",
+        "id": "18",
         "title": "Blue Denim Shorts",
         "features": {
           "material": "Denim",
           "fit": "Regular Fit",
-          "size": "13-14Y",
+          "size": "11-12Y",
           "color": "Blue",
           "sleeve_type": "N/A",
           "pattern": "Solid",
@@ -911,17 +929,17 @@
           "length": "Knee Length"
         },
         "price": "499.00",
-        "image": "shorts_blue.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/970582-12747998.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4.1
       },
       {
-        "id": "18",
+        "id": "19",
         "title": "Red Cotton Dresses",
         "features": {
           "material": "Cotton",
           "fit": "Regular Fit",
-          "size": "13-14Y",
+          "size": "10-11Y",
           "color": "Red",
           "sleeve_type": "Sleeveless",
           "pattern": "Solid",
@@ -929,27 +947,9 @@
           "length": "Knee Length"
         },
         "price": "699.00",
-        "image": "dress_red.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/978314-12884154.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4
-      },
-      {
-        "id": "19",
-        "title": "Blue Denim Jeans",
-        "features": {
-          "material": "Denim",
-          "fit": "Regular Fit",
-          "size": "13-14Y",
-          "color": "Blue",
-          "sleeve_type": "N/A",
-          "pattern": "Solid",
-          "neck": "N/A",
-          "length": "Full Length"
-        },
-        "price": "799.00",
-        "image": "jeans_blue.jpg",
-        "brand": "Pantaloons Junior",
-        "rating": 4.3
       },
       {
         "id": "20",
@@ -957,7 +957,7 @@
         "features": {
           "material": "Polyester",
           "fit": "Regular Fit",
-          "size": "14-15Y",
+          "size": "13-14Y",
           "color": "Black",
           "sleeve_type": "Sleeveless",
           "pattern": "Solid",
@@ -965,7 +965,7 @@
           "length": "Full Length"
         },
         "price": "899.00",
-        "image": "jumpsuit_black.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/978305-12884136.jpg?auto=format&w=257",
         "brand": "Pantaloons Junior",
         "rating": 4.5
       }
@@ -980,7 +980,7 @@
           "color": "Dark Green"
         },
         "price": "3009.00",
-        "image": "dark_green_printed_cotton_quilts.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/865745-10362919.jpg?auto=format&w=257",
         "brand": "LIVING SCAPES",
         "rating": 0
       },
@@ -993,7 +993,7 @@
           "color": "Dark Brown"
         },
         "price": "700.00",
-        "image": "diningtable_brown.jpg"
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/977769-12884184.jpg?auto=format&w=257"
       },
       {
         "id": "3",
@@ -1004,7 +1004,7 @@
           "color": "White"
         },
         "price": "800.00",
-        "image": "bed_white.jpg"
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/802659-9499942.jpg?auto=format&w=257"
       },
       {
         "id": "4",
@@ -1015,7 +1015,7 @@
           "color": "Red"
         },
         "price": "25.00",
-        "image": "chair_red.jpg"
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/870023-10347720.jpg?auto=format&w=257"
       },
       {
         "id": "5",
@@ -1026,7 +1026,7 @@
           "color": "Black"
         },
         "price": "150.00",
-        "image": "coffeetable_black.jpg"
+        "image": "https://imagescdn.pantaloons.com/img/app/product/7/784319-9121297.jpg?auto=format&w=257"
       },
       {
         "id": "6",
@@ -1037,7 +1037,7 @@
           "color": "White"
         },
         "price": "30.00",
-        "image": "lamp_white.jpg"
+        "image": "https://imagescdn.pantaloons.com/img/app/product/7/775418-8946372.jpg?auto=format&w=257"
       },
       {
         "id": "7",
@@ -1048,7 +1048,7 @@
           "color": "Gray"
         },
         "price": "60.00",
-        "image": "curtains_gray.jpg"
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/869559-10347664.jpg?auto=format&w=257"
       },
       {
         "id": "8",
@@ -1059,7 +1059,7 @@
           "color": "Blue"
         },
         "price": "200.00",
-        "image": "rug_blue.jpg"
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/869557-10347657.jpg?auto=format&w=257"
       },
       {
         "id": "9",
@@ -1070,7 +1070,7 @@
           "color": "Brown"
         },
         "price": "100.00",
-        "image": "bookshelf_brown.jpg"
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/975349-12839996.jpg?auto=format&w=257"
       },
       {
         "id": "10",
@@ -1081,117 +1081,119 @@
           "color": "White"
         },
         "price": "300.00",
-        "image": "wardrobe_white.jpg"
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/975350-12840002.jpg?auto=format&w=257"
       },
       {
         "id": "11",
-        "title": "Desk",
+        "title": "Dark Green Printed Cotton Quilts",
         "features": {
-          "material": "Wood, study",
-          "size": "Medium",
-          "color": "Black"
+          "material": "Printed, Dark Green",
+          "size": "Queen",
+          "color": "Dark Green"
         },
-        "price": "120.00",
-        "image": "desk_black.jpg"
+        "price": "3009.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/865745-10362919.jpg?auto=format&w=257",
+        "brand": "LIVING SCAPES",
+        "rating": 0
       },
       {
         "id": "12",
-        "title": "TV Stand",
+        "title": "Dining Table",
         "features": {
-          "material": "Wood, modern",
-          "size": "Medium",
-          "color": "Brown"
+          "material": "Wood, 6-seater",
+          "size": "Large",
+          "color": "Dark Brown"
         },
-        "price": "150.00",
-        "image": "tvstand_brown.jpg"
+        "price": "700.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/977769-12884184.jpg?auto=format&w=257"
       },
       {
         "id": "13",
-        "title": "Dresser",
+        "title": "Bed",
         "features": {
-          "material": "Wood, 6-drawer",
-          "size": "Large",
+          "material": "King size, wood",
+          "size": "King",
           "color": "White"
         },
-        "price": "250.00",
-        "image": "dresser_white.jpg"
+        "price": "800.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/802659-9499942.jpg?auto=format&w=257"
       },
       {
         "id": "14",
-        "title": "Mirror",
+        "title": "Chair",
         "features": {
-          "material": "Wall, oval",
-          "size": "Medium",
-          "color": "Silver"
-        },
-        "price": "80.00",
-        "image": "mirror_silver.jpg"
-      },
-      {
-        "id": "15",
-        "title": "Recliner",
-        "features": {
-          "material": "Leather, single",
-          "size": "Large",
-          "color": "Black"
-        },
-        "price": "350.00",
-        "image": "recliner_black.jpg"
-      },
-      {
-        "id": "16",
-        "title": "Ottoman",
-        "features": {
-          "material": "Fabric, storage",
-          "size": "Medium",
-          "color": "Gray"
-        },
-        "price": "90.00",
-        "image": "ottoman_gray.jpg"
-      },
-      {
-        "id": "17",
-        "title": "Shelf",
-        "features": {
-          "material": "Metal, wall-mounted",
-          "size": "Small",
-          "color": "White"
-        },
-        "price": "40.00",
-        "image": "shelf_white.jpg"
-      },
-      {
-        "id": "18",
-        "title": "Clock",
-        "features": {
-          "material": "Wall clock, round",
-          "size": "Medium",
-          "color": "Black"
-        },
-        "price": "25.00",
-        "image": "clock_black.jpg"
-      },
-      {
-        "id": "19",
-        "title": "Blender",
-        "features": {
-          "material": "Electric, glass jar",
+          "material": "Plastic, stackable",
           "size": "Medium",
           "color": "Red"
         },
+        "price": "25.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/870023-10347720.jpg?auto=format&w=257"
+      },
+      {
+        "id": "15",
+        "title": "Coffee Table",
+        "features": {
+          "material": "Glass, modern",
+          "size": "Medium",
+          "color": "Black"
+        },
+        "price": "150.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/7/784319-9121297.jpg?auto=format&w=257"
+      },
+      {
+        "id": "16",
+        "title": "Lamp",
+        "features": {
+          "material": "Table lamp, LED",
+          "size": "Small",
+          "color": "White"
+        },
+        "price": "30.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/7/775418-8946372.jpg?auto=format&w=257"
+      },
+      {
+        "id": "17",
+        "title": "Curtains",
+        "features": {
+          "material": "Cotton, blackout",
+          "size": "Large",
+          "color": "Gray"
+        },
         "price": "60.00",
-        "image": "blender_red.jpg"
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/869559-10347664.jpg?auto=format&w=257"
+      },
+      {
+        "id": "18",
+        "title": "Rug",
+        "features": {
+          "material": "Wool, round",
+          "size": "Large",
+          "color": "Blue"
+        },
+        "price": "200.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/869557-10347657.jpg?auto=format&w=257"
+      },
+      {
+        "id": "19",
+        "title": "Bookshelf",
+        "features": {
+          "material": "Wood, 5-shelf",
+          "size": "Tall",
+          "color": "Brown"
+        },
+        "price": "100.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/975349-12839996.jpg?auto=format&w=257"
       },
       {
         "id": "20",
-        "title": "Toaster",
+        "title": "Wardrobe",
         "features": {
-          "material": "2-slice, stainless steel",
-          "size": "Small",
-          "color": "Silver"
+          "material": "Wood, 3-door",
+          "size": "Large",
+          "color": "White"
         },
-        "price": "30.00",
-        "image": "toaster_silver.jpg"
+        "price": "300.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/9/975350-12840002.jpg?auto=format&w=257"
       }
     ],
     "beauty": [
@@ -1204,7 +1206,7 @@
           "color": "Red"
         },
         "price": "20.00",
-        "image": "lipstick_red.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/863430-10201875.jpg?auto=format&w=257",
         "brand": "Maybelline",
         "rating": 4.7
       },
@@ -1217,7 +1219,7 @@
           "color": "Beige"
         },
         "price": "40.00",
-        "image": "foundation_beige.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/895998-10935245.jpg?auto=format&w=257",
         "brand": "L'Oreal",
         "rating": 4.5
       },
@@ -1230,7 +1232,7 @@
           "color": "Black"
         },
         "price": "25.00",
-        "image": "mascara_black.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/892579-10834202.jpg?auto=format&w=257",
         "brand": "CoverGirl",
         "rating": 4.6
       },
@@ -1243,7 +1245,7 @@
           "color": "Pink"
         },
         "price": "60.00",
-        "image": "perfume_pink.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/856926-10064719.jpg?auto=format&w=257",
         "brand": "Chanel",
         "rating": 4.8
       },
@@ -1256,7 +1258,7 @@
           "color": "Red"
         },
         "price": "10.00",
-        "image": "nailpolish_red.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/813403-9706526.jpg?auto=format&w=257",
         "brand": "Sally Hansen",
         "rating": 4.2
       },
@@ -1269,7 +1271,7 @@
           "color": "Multicolor"
         },
         "price": "50.00",
-        "image": "eyeshadow_multicolor.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/813435-9706751.jpg?auto=format&w=257",
         "brand": "Urban Decay",
         "rating": 4.7
       },
@@ -1282,7 +1284,7 @@
           "color": "Pink"
         },
         "price": "30.00",
-        "image": "blush_pink.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/895275-10913634.jpg?auto=format&w=257",
         "brand": "NARS",
         "rating": 4.4
       },
@@ -1295,7 +1297,7 @@
           "color": "Light"
         },
         "price": "20.00",
-        "image": "concealer_light.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/7/755203-8605274.jpg?auto=format&w=257",
         "brand": "Tarte",
         "rating": 4.5
       },
@@ -1308,7 +1310,7 @@
           "color": "Black"
         },
         "price": "15.00",
-        "image": "eyeliner_black.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/813529-9706831.jpg?auto=format&w=257",
         "brand": "Stila",
         "rating": 4.6
       },
@@ -1321,143 +1323,180 @@
           "color": "White"
         },
         "price": "35.00",
-        "image": "facecream_white.jpg",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/856867-10063715.jpg?auto=format&w=257",
         "brand": "Neutrogena",
         "rating": 4.5
       },
       {
         "id": "11",
-        "title": "Hair Oil",
+        "title": "Lipstick",
         "features": {
-          "material": "Nourishing, argan",
-          "size": "100ml",
-          "color": "Clear"
+          "material": "Matte, long-lasting",
+          "size": "Small",
+          "color": "Red"
         },
-        "price": "25.00",
-        "image": "hairoil_clear.jpg",
-        "brand": "Moroccanoil",
+        "price": "20.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/863430-10201875.jpg?auto=format&w=257",
+        "brand": "Maybelline",
         "rating": 4.7
       },
       {
         "id": "12",
-        "title": "Body Lotion",
+        "title": "Foundation",
         "features": {
-          "material": "Hydrating, shea butter",
-          "size": "200ml",
-          "color": "White"
+          "material": "Liquid, full coverage",
+          "size": "30ml",
+          "color": "Beige"
         },
-        "price": "20.00",
-        "image": "bodylotion_white.jpg",
-        "brand": "Aveeno",
-        "rating": 4.4
+        "price": "40.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/895998-10935245.jpg?auto=format&w=257",
+        "brand": "L'Oreal",
+        "rating": 4.5
       },
       {
         "id": "13",
-        "title": "Shampoo",
+        "title": "Mascara",
         "features": {
-          "material": "Volumizing, sulfate-free",
-          "size": "250ml",
-          "color": "Clear"
-        },
-        "price": "15.00",
-        "image": "shampoo_clear.jpg",
-        "brand": "OGX",
-        "rating": 4.3
-      },
-      {
-        "id": "14",
-        "title": "Conditioner",
-        "features": {
-          "material": "Hydrating, sulfate-free",
-          "size": "250ml",
-          "color": "Clear"
-        },
-        "price": "15.00",
-        "image": "conditioner_clear.jpg",
-        "brand": "OGX",
-        "rating": 4.3
-      },
-      {
-        "id": "15",
-        "title": "Face Mask",
-        "features": {
-          "material": "Clay, deep cleansing",
-          "size": "100ml",
-          "color": "Green"
+          "material": "Volumizing, waterproof",
+          "size": "10ml",
+          "color": "Black"
         },
         "price": "25.00",
-        "image": "facemask_green.jpg",
-        "brand": "The Body Shop",
-        "rating": 4.5
-      },
-      {
-        "id": "16",
-        "title": "Serum",
-        "features": {
-          "material": "Anti-aging, retinol",
-          "size": "30ml",
-          "color": "Yellow"
-        },
-        "price": "50.00",
-        "image": "serum_yellow.jpg",
-        "brand": "The Ordinary",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/892579-10834202.jpg?auto=format&w=257",
+        "brand": "CoverGirl",
         "rating": 4.6
       },
       {
-        "id": "17",
-        "title": "Lip Balm",
+        "id": "14",
+        "title": "Perfume",
         "features": {
-          "material": "Hydrating, SPF 15",
-          "size": "5g",
+          "material": "Eau de Parfum, floral",
+          "size": "50ml",
           "color": "Pink"
         },
-        "price": "5.00",
-        "image": "lipbalm_pink.jpg",
-        "brand": "Burt's Bees",
-        "rating": 4.3
+        "price": "60.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/856926-10064719.jpg?auto=format&w=257",
+        "brand": "Chanel",
+        "rating": 4.8
       },
       {
-        "id": "18",
-        "title": "Highlighter",
+        "id": "15",
+        "title": "Nail Polish",
         "features": {
-          "material": "Powder, golden glow",
-          "size": "8g",
-          "color": "Gold"
+          "material": "Glossy, quick-dry",
+          "size": "15ml",
+          "color": "Red"
         },
-        "price": "35.00",
-        "image": "highlighter_gold.jpg",
-        "brand": "Becca",
+        "price": "10.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/813403-9706526.jpg?auto=format&w=257",
+        "brand": "Sally Hansen",
+        "rating": 4.2
+      },
+      {
+        "id": "16",
+        "title": "Eyeshadow Palette",
+        "features": {
+          "material": "Matte and shimmer",
+          "size": "12 shades",
+          "color": "Multicolor"
+        },
+        "price": "50.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/813435-9706751.jpg?auto=format&w=257",
+        "brand": "Urban Decay",
         "rating": 4.7
       },
       {
-        "id": "19",
-        "title": "Hand Cream",
+        "id": "17",
+        "title": "Blush",
         "features": {
-          "material": "Moisturizing, lavender",
-          "size": "75ml",
-          "color": "Purple"
+          "material": "Powder, soft pink",
+          "size": "10g",
+          "color": "Pink"
         },
-        "price": "15.00",
-        "image": "handcream_purple.jpg",
-        "brand": "L'Occitane",
+        "price": "30.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/895275-10913634.jpg?auto=format&w=257",
+        "brand": "NARS",
+        "rating": 4.4
+      },
+      {
+        "id": "18",
+        "title": "Concealer",
+        "features": {
+          "material": "Creamy, high coverage",
+          "size": "10ml",
+          "color": "Light"
+        },
+        "price": "20.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/7/755203-8605274.jpg?auto=format&w=257",
+        "brand": "Tarte",
         "rating": 4.5
       },
       {
-        "id": "20",
-        "title": "Makeup Remover",
+        "id": "19",
+        "title": "Eyeliner",
         "features": {
-          "material": "Micellar water, gentle",
-          "size": "200ml",
-          "color": "Clear"
+          "material": "Liquid, precise tip",
+          "size": "5ml",
+          "color": "Black"
         },
         "price": "15.00",
-        "image": "makeupremover_clear.jpg",
-        "brand": "Garnier",
-        "rating": 4.4
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/813529-9706831.jpg?auto=format&w=257",
+        "brand": "Stila",
+        "rating": 4.6
+      },
+      {
+        "id": "20",
+        "title": "Face Cream",
+        "features": {
+          "material": "Moisturizing, SPF 30",
+          "size": "50ml",
+          "color": "White"
+        },
+        "price": "35.00",
+        "image": "https://imagescdn.pantaloons.com/img/app/product/8/856867-10063715.jpg?auto=format&w=257",
+        "brand": "Neutrogena",
+        "rating": 4.5
       }
     ]
   },
-  "wishlist": [],
-  "cart": [],
+  "wishlist": [
+    {
+      "id": "1fa2",
+      "women": {
+        "id": "2",
+        "title": "Jeans",
+        "features": {
+          "material": "Denim",
+          "fit": "Skinny fit",
+          "size": "28",
+          "color": "Blue",
+          "sleeve_type": "N/A"
+        },
+        "brand": "ZARA",
+        "price": "45.00",
+        "image": "jeans_blue.jpg"
+      }
+    }
+  ],
+  "cart": [
+    {
+      "id": "0dfb",
+      "mens": {
+        "id": "3",
+        "title": "Shirts",
+        "features": {
+          "material": "Cotton",
+          "fit": "Regular fit",
+          "size": "M",
+          "color": "White",
+          "sleeve_type": "Long sleeve"
+        },
+        "price": "25.00",
+        "image": "shirt_white.jpg",
+        "brand": "Allen Solly",
+        "rating": 4.6
+      }
+    }
+  ],
   "authentication": []
 }

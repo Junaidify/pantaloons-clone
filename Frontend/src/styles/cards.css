@@ -45,7 +45,13 @@
   background-color: white;
   padding: 1vh;
   border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
 }
+
+.mens_cards:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
 
 .mens_cards_img_parent {
   height: 50vh;

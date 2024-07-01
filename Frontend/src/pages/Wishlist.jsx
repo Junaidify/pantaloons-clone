@@ -58,7 +58,7 @@ export const Wishlist = ({ cssClass, wishCategory }) => {
                 <p className={`${cssClass}_cards_img_parent`}>
                   <img
                     className="cards_img"
-                    src={item.image}
+                    src={item[wishCategory]?.image}
                     alt={item.title}
                   />
                 </p>

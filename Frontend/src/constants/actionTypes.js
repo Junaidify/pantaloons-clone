@@ -11,3 +11,10 @@ export const WISHLIST_API = {
   DELETE: "WISHLIST_DELETE",
 };
 
+
+export const CART_API = {
+  SUCCESS: "CART_SUCCESS",
+  FETCH: "CART_FETCH",
+  ERROR: "CART_ERROR",
+  DELETE: "CART_DELETE",
+};
