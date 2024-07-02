@@ -44,7 +44,7 @@ export const Cards = ({
     console.log("Adding to wishlist:", wishlistItem);
 
     axios
-      .post(`http://localhost:3000/wishlist`, {
+      .post(`https://pantaloons-clone-10.onrender.com/wishlist`, {
         [category]: wishlistItem,
       })
       .then((response) => {
