@@ -15,7 +15,7 @@ export const Cart = () => {
     const fetchData = async () => {
       dispatch({ type: CART_API.FETCH });
       try {
-        const response = await axios.get("http://localhost:3000/cart");
+        const response = await axios.get("https://pantaloons-clone-10.onrender.com/cart");
         dispatch({ type: CART_API.SUCCESS, payload: response.data });
       } catch (error) {
         dispatch({ type: CART_API.ERROR, payload: error.message });
