@@ -6,7 +6,7 @@ export const useCartCustom = () => {
   const [category, setCategory] = useState("mens");
 
   const addToCart = (product, category) => {
-    axios.post(`http://localhost:3000/cart`, {
+    axios.post(`https://pantaloons-clone-10.onrender.com/cart`, {
       [category]: product,
     });
 
