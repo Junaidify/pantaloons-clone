@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "Backend Server",
   "main": "index.js",
- "scripts": {
-  "start": "node index.js"
-},
+  "scripts": {
+    "start": "node index.js"
+  },
   "keywords": [],
   "author": "Junaid Khan",
   "license": "ISC",
   "dependencies": {
-     "json-server": "^1.0.0-beta.1"
+    "json-server": "^1.0.0-beta.1"
   }
 }
