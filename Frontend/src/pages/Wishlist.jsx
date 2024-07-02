@@ -28,7 +28,7 @@ export const Wishlist = ({ cssClass, wishCategory }) => {
 
   const handleDelete = async (itemId) => {
     try {
-      await axios.delete(`http://localhost:3000/wishlist/${itemId}`);
+      await axios.delete(`https://pantaloons-clone-10.onrender.com/wishlist/${itemId}`);
       dispatch({ type: WISHLIST_API.DELETE, payload: itemId });
     } catch (err) {
       console.error("Failed to delete item:", err);
