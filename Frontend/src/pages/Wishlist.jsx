@@ -16,7 +16,7 @@ export const Wishlist = ({ cssClass, wishCategory }) => {
       dispatch({ type: WISHLIST_API.FETCH });
 
       try {
-        const res = await axios.get("http://localhost:3000/wishlist");
+        const res = await axios.get("https://pantaloons-clone-10.onrender.com/wishlist");
         dispatch({ type: WISHLIST_API.SUCCESS, payload: res.data });
       } catch (err) {
         dispatch({ type: WISHLIST_API.ERROR, payload: err });
