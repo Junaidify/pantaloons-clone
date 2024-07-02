@@ -12,7 +12,7 @@ export const FetchData = () => {
       dispatch({ type: API_REQUEST.FETCH });
 
       try {
-        const res = await axios.get("http://localhost:3000/products");
+        const res = await axios.get("https://pantaloons-clone-10.onrender.com/products");
         dispatch({ type: API_REQUEST.SUCCESS, payload: res.data });
       } catch (err) {
         dispatch({ type: API_REQUEST.ERROR, payload: err });
