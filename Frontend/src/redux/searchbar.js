@@ -1,4 +1,4 @@
-// navbar's  search bar 
+// navbar's  search bar
 
 import { useState } from "react";
 import { useSelector } from "react-redux";

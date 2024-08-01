@@ -43,7 +43,7 @@ export const Navbar = () => {
             </Link>
           </Box>
 
-          <div style={{marginLeft: "5%"}}>
+          <div style={{ marginLeft: "5%" }}>
             <Grid templateColumns="repeat(5, 1fr)">
               <Link to="/navbar/mens">
                 <GridItem className="navbar_category" w="100%" h="auto">

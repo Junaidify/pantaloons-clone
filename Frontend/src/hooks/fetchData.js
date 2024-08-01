@@ -1,19 +1,21 @@
 import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { API_REQUEST } from "../constants/actionTypes";
 import axios from "axios";
 
-export const FetchData = () => {
+export const useFetchdata = () => {
   const dispatch = useDispatch();
-  const mens = useSelector((state) => state.fetchData.data);
 
   useEffect(() => {
     const getData = async () => {
       dispatch({ type: API_REQUEST.FETCH });
 
       try {
-        const res = await axios.get("https://pantaloons-clone-10.onrender.com/products");
+        const res = await axios.get(
+          "https://pantaloons-clone-10.onrender.com/products"
+        );
         dispatch({ type: API_REQUEST.SUCCESS, payload: res.data });
+        console.log(res.data);
       } catch (err) {
         dispatch({ type: API_REQUEST.ERROR, payload: err });
       }
@@ -21,10 +23,5 @@ export const FetchData = () => {
     getData();
   }, []);
 
-
-  return (
-    <>
-   
-    </>
-  );
+  return {};
 };

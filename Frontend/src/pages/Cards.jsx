@@ -1,27 +1,25 @@
 // Cards.jsx
 import { useSelector } from "react-redux";
 import "../styles/cards.css";
-import img_1 from "../images/img_1.webp";
 import {
   faAngleLeft,
   faAngleRight,
   faHeart,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useCarousel } from "../redux/custom";
+import { useLandingPageProductCarousel } from "../hooks/landingPageProductCarousel";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-// eslint-disable-next-line react/prop-types
 export const Cards = ({
   category,
   cssClass,
   headingOfTheCards,
   customClass,
 }) => {
-  const { currentSlide, handleNextSlide, handlePrevSlide } = useCarousel();
-  const data = useSelector((state) => state.fetchData.data);
-  const cards = data.length > 0 ? data[0][category] : [];
+  const { currentSlide, handleNextSlide, handlePrevSlide } =
+    useLandingPageProductCarousel();
+  const cards = useSelector((state) => state.fetchData.data);
   const navigate = useNavigate();
 
   const handleWishlist = (productId) => {

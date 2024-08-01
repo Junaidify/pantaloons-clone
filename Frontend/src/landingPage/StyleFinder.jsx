@@ -55,7 +55,9 @@ export const StyleFinder = () => {
               </div>
             </div>
 
-            <div style={{ margin: "0 0 3vh 0", width: "80%", marginTop: "5vh" }}>
+            <div
+              style={{ margin: "0 0 3vh 0", width: "80%", marginTop: "5vh" }}
+            >
               <p className="slider_title">Show Me</p>
               <div className="slider-wrapper">
                 <input
@@ -75,8 +77,6 @@ export const StyleFinder = () => {
 
               <p className="slider_btn">SHOW RECOMMENDATIONS</p>
             </div>
-
-
           </div>
         </div>
       </div>

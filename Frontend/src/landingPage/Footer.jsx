@@ -229,9 +229,21 @@ export const Footer = () => {
           </p>
 
           <p className="footer_container_5_img">
-            <img style={{width:"100%", height:"100%"}} src={footer_3} alt="payment options" />
-            <img style={{width:"100%", height:"100%"}} src={footer_4} alt="payment options" />
-            <img style={{width:"100%", height:"100%"}} src={footer_5} alt="payment options" />
+            <img
+              style={{ width: "100%", height: "100%" }}
+              src={footer_3}
+              alt="payment options"
+            />
+            <img
+              style={{ width: "100%", height: "100%" }}
+              src={footer_4}
+              alt="payment options"
+            />
+            <img
+              style={{ width: "100%", height: "100%" }}
+              src={footer_5}
+              alt="payment options"
+            />
           </p>
         </div>
       </div>

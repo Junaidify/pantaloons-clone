@@ -1,10 +1,9 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { useCarousel } from "./custom";
+import { useLandingPageProductCarousel } from "../hooks/landingPageProductCarousel";
 import "../styles/productpage.css";
 import { useSelector } from "react-redux";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
-import img_1 from "../images/img_1.webp";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
@@ -26,7 +25,7 @@ export const ProductCustomHook = ({
 
   console.log(products && products[0]);
 
-  const { setDisplaySlide, currentSlide } = useCarousel();
+  const { setDisplaySlide, currentSlide } = useLandingPageProductCarousel();
   const navigate = useNavigate();
 
   const handleChange = useCallback((e) => {
@@ -189,7 +188,7 @@ export const ProductCustomHook = ({
           <p className="navbar_mens_product_heading">
             {heading_of_product_page}
           </p>
-          {(category !== "home" && category !== "beauty") && (
+          {category !== "home" && category !== "beauty" && (
             <>
               <p className="navbar_mens_size_cards_title">SHOP BY SIZE</p>
               <div className="navbar_mens_size_cards">
@@ -216,7 +215,11 @@ export const ProductCustomHook = ({
                   }}
                 >
                   <p className={`${cssClass}_cards_img_parent`}>
-                    <img className="cards_img" src={item.image} alt={item.title} />
+                    <img
+                      className="cards_img"
+                      src={item.image}
+                      alt={item.title}
+                    />
                   </p>
                   <p className={`${cssClass}_cards_brand`}>{item.brand}</p>
                   <div className={`${cssClass}_cards_features`}>

@@ -1,10 +1,8 @@
 import {} from "react";
-import { ProductCustomHook } from "../redux/ProductCustomHook";
-import { Footer } from "../pages/Footer";
-
+import { ProductCustomHook } from "./ProductPageParent";
+import { Footer } from "../landingPage/Footer";
 
 export const MensProduct = () => {
-
   return (
     <>
       <ProductCustomHook
@@ -13,7 +11,7 @@ export const MensProduct = () => {
         heading_of_product_page="Tops for Men"
       />
 
-      <Footer/>
+      <Footer />
     </>
   );
 };

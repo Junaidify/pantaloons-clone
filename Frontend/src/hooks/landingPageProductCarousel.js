@@ -1,13 +1,14 @@
-// customHook.js
 import { useState, useEffect, useRef } from "react";
 
-export const useCarousel = () => {
+export const useLandingPageProductCarousel = () => {
   const currentSlide = useRef(null);
   const [activeSlide, setActiveSlide] = useState(0);
-  const [displaySlide, setDisplaySlide] = useState(5); 
+  const [displaySlide, setDisplaySlide] = useState(5);
 
   useEffect(() => {
-    const slideCount = currentSlide.current ? currentSlide.current.children.length : 0;
+    const slideCount = currentSlide.current
+      ? currentSlide.current.children.length
+      : 0;
     if (currentSlide.current && slideCount > 0) {
       const slideWidth = currentSlide.current.clientWidth / displaySlide;
       currentSlide.current.style.transform = `translateX(-${
@@ -20,7 +21,9 @@ export const useCarousel = () => {
   const handleNextSlide = () => {
     if (currentSlide.current) {
       setActiveSlide((prev) =>
-        prev < currentSlide.current.children.length - displaySlide ? prev + 1 : 0
+        prev < currentSlide.current.children.length - displaySlide
+          ? prev + 1
+          : 0
       );
     }
   };
@@ -28,7 +31,9 @@ export const useCarousel = () => {
   const handlePrevSlide = () => {
     if (currentSlide.current) {
       setActiveSlide((prev) =>
-        prev > 0 ? prev - 1 : currentSlide.current.children.length - displaySlide
+        prev > 0
+          ? prev - 1
+          : currentSlide.current.children.length - displaySlide
       );
     }
   };
@@ -41,6 +46,3 @@ export const useCarousel = () => {
     setDisplaySlide,
   };
 };
-
-
-

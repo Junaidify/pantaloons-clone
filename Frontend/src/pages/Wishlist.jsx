@@ -16,7 +16,9 @@ export const Wishlist = ({ cssClass, wishCategory }) => {
       dispatch({ type: WISHLIST_API.FETCH });
 
       try {
-        const res = await axios.get("https://pantaloons-clone-10.onrender.com/wishlist");
+        const res = await axios.get(
+          "https://pantaloons-clone-10.onrender.com/wishlist"
+        );
         dispatch({ type: WISHLIST_API.SUCCESS, payload: res.data });
       } catch (err) {
         dispatch({ type: WISHLIST_API.ERROR, payload: err });
@@ -28,7 +30,9 @@ export const Wishlist = ({ cssClass, wishCategory }) => {
 
   const handleDelete = async (itemId) => {
     try {
-      await axios.delete(`https://pantaloons-clone-10.onrender.com/wishlist/${itemId}`);
+      await axios.delete(
+        `https://pantaloons-clone-10.onrender.com/wishlist/${itemId}`
+      );
       dispatch({ type: WISHLIST_API.DELETE, payload: itemId });
     } catch (err) {
       console.error("Failed to delete item:", err);

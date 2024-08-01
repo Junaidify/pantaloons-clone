@@ -1,7 +1,6 @@
 import "../styles/productdetails.css";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
-import img_1 from "../images/img_1.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMinus,
@@ -10,8 +9,8 @@ import {
   faTruck,
 } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
-import { Footer } from "./Footer";
-import { useCartCustom } from "../redux/cartCustom";
+import { Footer } from "../landingPage/Footer";
+import { useCartCustom } from "../hooks/cartCustom";
 
 // eslint-disable-next-line react/prop-types
 export const ProductDetails = ({ category }) => {

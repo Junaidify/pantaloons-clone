@@ -1,10 +1,11 @@
 import {} from "react";
-import { ProductCustomHook } from "../redux/ProductCustomHook";
-import { Footer } from "../pages/Footer";
+import { ProductCustomHook } from "./ProductPageParent";
+import { Footer } from "../landingPage/Footer";
 
 export const BeautyProduct = () => {
   return (
     <>
+
       <ProductCustomHook
         category="beauty"
         cssClass="navbar_mens"

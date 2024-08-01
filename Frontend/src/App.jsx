@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { DashBoard } from "./pages/DashBoard";
+import { LandingPageComponent } from "./landingPage/LandingPageComponent";
 import { ProductDetails } from "./pages/ProductDetails";
 import { MensProduct } from "./productpage/MensProduct";
 import { WomenProduct } from "./productpage/WomenProduct";
@@ -7,7 +7,7 @@ import { KidsProduct } from "./productpage/KidsProduct";
 import { HomeProduct } from "./productpage/HomeProduct";
 import { BeautyProduct } from "./productpage/BeautyProduct";
 import { Wishlist } from "./pages/Wishlist";
-import { Navbar } from "./pages/Navbar";
+import { Navbar } from "./landingPage/Navbar";
 import { Cart } from "./pages/Cart";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<DashBoard />} />
+        <Route path="/" element={<LandingPageComponent />} />
         <Route path="/navbar/mens" element={<MensProduct />} />
         <Route
           path="/navbar/mens/:id"
